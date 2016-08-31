@@ -4,20 +4,17 @@ import {bindActionCreators} from 'redux';
 import * as actions from '../actions/fuelSavingsActions';
 import Menu from '../components/Menu';
 
-export const FuelSavingsPage = (props) => {
+export const MainPage = (props) => {
   return (
     <Menu />
   );
 };
 
-FuelSavingsPage.propTypes = {
-  actions: PropTypes.object.isRequired,
-  fuelSavings: PropTypes.object.isRequired
+MainPage.propTypes = {
 };
 
 function mapStateToProps(state) {
   return {
-    fuelSavings: state.fuelSavings
   };
 }
 
@@ -30,4 +27,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(FuelSavingsPage);
+)(MainPage);
