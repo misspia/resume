@@ -1,18 +1,28 @@
 import React from 'react';
 import {Link} from 'react-router';
+import $ from 'jquery';
+import axios from 'axios';
+import '../styles/HomePage.css';
+import PokemonProfile from './PokemonProfile';
 
-const HomePage = () => {
+// Since this component is simple and static, there's no parent container for it.
+
+
+const HomePage = React.createClass ({
+  getInitialState() {
+    return {
+    };
+  },
+
+  render () {
   return (
-    <div>
-      <h1>React Slingshot</h1>
-
-      <h2>Get Started</h2>
-      <ol>
-        <li>Review the <Link to="fuel-savings">demo app</Link></li>
-        <li>Remove the demo and start coding: npm run remove-demo</li>
-      </ol>
-    </div>
-  );
-};
+      <div className="container">
+        <div className ="row">
+          <div>Welcome to the Lit Pokedex</div>
+        </div>
+      </div>
+  )}
+});
 
 export default HomePage;
+
