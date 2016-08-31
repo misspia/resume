@@ -1,5 +1,4 @@
 import React, {PropTypes} from 'react';
-import FuelSavingsResults from './FuelSavingsResults';
 import Menu from './Menu';
 
 class FuelSavingsForm extends React.Component {
@@ -77,8 +76,6 @@ class FuelSavingsForm extends React.Component {
         </table>
 
         <hr/>
-
-        {fuelSavings.necessaryDataIsProvidedToCalculateSavings && <FuelSavingsResults savings={fuelSavings.savings}/>}
         <input type="submit" value="Save" onClick={this.save}/>
       </div>
     );
