@@ -5,7 +5,7 @@ const PokemonProfile = (props) => {
     props.onChange(props.name, e.target.value);
   };
   const pokeName = 'lugia';
-  const getImage = "http://www.pokestadium.com/sprites/xy/"+ pokeName +".gif";
+  const getImage = "http://www.pokestadium.com/sprites/xy/" + pokeName + ".gif";
   return (
     <div className='col s8'>
       <img src={getImage}/>
