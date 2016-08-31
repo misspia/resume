@@ -8,7 +8,15 @@ const PokemonProfile = (props) => {
   const getImage = "http://www.pokestadium.com/sprites/xy/" + pokeName + ".gif";
   return (
     <div className='col s8'>
-      <img src={getImage}/>
+      <div className='row'>
+        <div className ='col s4'>
+          <img src={getImage}/>
+        </div>
+        <div className='cols s8'>
+          
+        </div>
+      </div>
+      
 
     </div>
   );
