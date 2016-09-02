@@ -6,7 +6,9 @@ import Menu from '../components/Menu';
 
 export const MainPage = (props) => {
   return (
-    <Menu />
+    <Menu 
+      actions={this.props.actions}
+    />
   );
 };
 
