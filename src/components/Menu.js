@@ -55,7 +55,9 @@ const Menu = React.createClass ({
 		      }.bind(this)
     		});
 		        var pokeSpecies = this.state.data.genera[0].genus;
+
 		        var pokeDesc = this.state.data.flavor_text_entries[1].flavor_text;
+	    		return pokeDesc;
 	    		console.log(pokeSpecies);
 	    		console.log(pokeDesc);
 	},
