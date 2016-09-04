@@ -68,6 +68,7 @@ const Menu = React.createClass ({
 	},
 
   getData() {
+    const pokemonName = ReactDOM.findDOMNode('search').value;
     this.getPokemon();
     this.getSpecies();
   },
