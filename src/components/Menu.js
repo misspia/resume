@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router';
 import $ from 'jquery';
-import axios from 'axios';
+import ReactDOM from 'react-dom';
 import '../styles/Menu.css';
 import PokemonProfile from './PokemonProfile';
 
@@ -10,22 +10,26 @@ import PokemonProfile from './PokemonProfile';
 var pokeId = 30;
 var baseUrl = 'http://pokeapi.co/api';
 const Menu = React.createClass ({
-	componentDidMount(){
-		this.getData();
+	componentDidMount() {
 	},
+
 	getInitialState() {
 		return {
-			data: 'default'
+			pokemon: 'pokemon',
+      species: 'species'
 		};
 	},
-	getData(){
+
+	getPokemon() {
 			var getUrl = baseUrl +'/v2/pokemon/' + pokeId;
 			$.ajax({
 		      url: getUrl,
 		      dataType: 'json',
 		      cache: false,
 		      success: function(data) {
-		        this.setState({data: data});
+		        this.setState({
+              pokemon: data
+            });
 		      }.bind(this),
 		      error: function(xhr, status, err) {
 		        console.error(getUrl, status, err.toString());
@@ -41,14 +45,17 @@ const Menu = React.createClass ({
 			console.log(pokeStat);
 			console.log(pokeType);
 	},
-	getData2(){
+
+	getSpecies() {
 			var getUrl = baseUrl +'/v2/pokemon-species/' + pokeId;
 			$.ajax({
 		      url: getUrl,
 		      dataType: 'json',
 		      cache: false,
 		      success: function(data) {
-		        this.setState({data: data});
+		        this.setState({
+              species: data
+            });
 		      }.bind(this),
 		      error: function(xhr, status, err) {
 		        console.error(getUrl, status, err.toString());
@@ -59,19 +66,23 @@ const Menu = React.createClass ({
 	    		console.log(pokeSpecies);
 	    		console.log(pokeDesc);
 	},
+
+  getData() {
+    this.getPokemon();
+    this.getSpecies();
+  },
+
 	render () {
 	return (
 
 			<div className="container">
 				<div className ="row">
 					<div className="col s4">
+						<input ref='search' type='text' placeholder='Whos that Pokemon?' />
 						<button onClick={this.getData}>Click</button>
-						<button onClick={this.getData2}>Click2</button>
 					</div>
 					<PokemonProfile />
 				</div>
-
-
 			</div>
 	)}
 });
