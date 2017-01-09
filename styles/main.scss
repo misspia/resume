@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,500');
+
+@import 'partials/variables';
+@import 'partials/base';
+@import 'partials/layout';
+
+@import 'partials/header';
+@import 'partials/skills';
+
+body {
+  font-family: $fontBody;
+  font-weight: 100;
+  padding: 1vh 0;
+  height:98vh;
+  width:100vw;
+  background-color:$bg;
+  font-size:0.9em;
+}
+header, section {
+  width:90%;
+}
+
+
+// https://dribbble.com/shots/1952826-Resume-CV-Brice
+// https://dribbble.com/shots/1909799-Resume-CV-Bailey
+// https://dribbble.com/shots/1552846-CV
+// http://cdn.hloom.com/images/277-Discreetly-Modern.jpg
+// https://codepen.io/ryanbuckley13/pen/XbjKKx?editors=0110
+
+
+
+// https://git.io/
