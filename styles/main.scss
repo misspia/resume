@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500');
 
 @import 'partials/variables';
 @import 'partials/base';
@@ -6,18 +6,24 @@
 
 @import 'partials/header';
 @import 'partials/skills';
+@import 'partials/projects';
+@import 'partials/experience';
 
 body {
   font-family: $fontBody;
   font-weight: 100;
   padding: 1vh 0;
-  height:98vh;
+  height:108vh;
   width:100vw;
-  background-color:$bg;
+  // background-color:$bg;
   font-size:0.9em;
 }
 header, section {
   width:90%;
+}
+
+@media print {
+	body {-webkit-print-color-adjust: exact;}
 }
 
 
@@ -25,8 +31,5 @@ header, section {
 // https://dribbble.com/shots/1909799-Resume-CV-Bailey
 // https://dribbble.com/shots/1552846-CV
 // http://cdn.hloom.com/images/277-Discreetly-Modern.jpg
-// https://codepen.io/ryanbuckley13/pen/XbjKKx?editors=0110
 
-
-
-// https://git.io/
+// http://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,500");
 a {
   text-decoration: none;
   color: #1c1b1c; }
@@ -12,10 +12,13 @@ hr {
 .bold {
   font-weight: 500; }
 
-.title.dark, .subtitle.dark {
+.semi-bold {
+  font-weight: 300; }
+
+.dark {
   color: #1c1b1c; }
 
-.title.light, .subtitle.light {
+.light {
   color: #767678; }
 
 .title {
@@ -25,8 +28,28 @@ hr {
 .subtitle {
   font-size: 1.1em; }
 
+.section-title {
+  padding-bottom: 0.3em; }
+
 .intext-divider {
   padding: 0 0.5em; }
+
+section table tr td {
+  padding: 0; }
+  section table tr td:first-child {
+    flex: 1;
+    padding: 0.5em 0; }
+  section table tr td:last-child {
+    flex: 3.5; }
+
+.spaced-content li {
+  padding: 0.2em 0; }
+
+.description {
+  font-size: 0.9em; }
+
+.tech {
+  font-size: 0.9em; }
 
 .row, .col {
   display: flex;
@@ -138,14 +161,30 @@ header .subtitle {
   background-color: #767678;
   color: #eae9ee; }
 
+#projects a {
+  font-size: 0.8em;
+  color: #6f9fd4; }
+
+#projects .date {
+  padding-bottom: 0.2em; }
+
+#projects .small {
+  font-size: 0.8em; }
+
+#experience .description span {
+  padding: 0.2em 0; }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   padding: 1vh 0;
-  height: 98vh;
+  height: 108vh;
   width: 100vw;
-  background-color: #e7e6eb;
   font-size: 0.9em; }
 
 header, section {
   width: 90%; }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact; } }
