@@ -177,13 +177,13 @@ header .subtitle {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  padding: 1vh 0;
-  height: 108vh;
+  padding: 2vh 0;
   width: 100vw;
+  background-color: #e7e6eb;
   font-size: 0.9em; }
 
 header, section {
-  width: 90%; }
+  width: 80%; }
 
 @media print {
   body {

@@ -12,14 +12,13 @@
 body {
   font-family: $fontBody;
   font-weight: 100;
-  padding: 1vh 0;
-  height:108vh;
+  padding: 2vh 0;
   width:100vw;
-  // background-color:$bg;
+  background-color:$bg;
   font-size:0.9em;
 }
 header, section {
-  width:90%;
+  width:80%;
 }
 
 @media print {
