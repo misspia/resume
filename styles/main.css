@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,500");
+@import url(font.css);
 a {
   text-decoration: none;
   color: #1c1b1c; }
@@ -6,7 +6,7 @@ a {
     color: initial; }
 
 hr {
-  width: 85%;
+  width: 90%;
   border-color: #eae9ee; }
 
 .bold {
@@ -122,37 +122,19 @@ ul {
   padding: 0;
   margin: 0; }
 
-.hexagon {
-  position: relative;
-  width: 4em;
-  height: 2.35294em;
-  background-color: #1c1b1c;
-  margin: 1.14286em 0;
-  color: #e9e8e9;
-  font-size: 2em; }
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 2em solid transparent;
-  border-right: 2em solid transparent; }
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 1.14286em solid #1c1b1c; }
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 1.14286em solid #1c1b1c; }
+header a {
+  font-size: 0.9em; }
 
 header .title {
   font-size: 2.6em; }
 
 header .subtitle {
-  font-size: 1.3em; }
+  font-size: 1.8em; }
+
+.hexagon-container i, .hexagon-container span {
+  position: absolute;
+  color: #eae9ee;
+  font-size: 2.3em; }
 
 #skills .tag {
   margin: 0.3em 0.4em;
@@ -162,7 +144,7 @@ header .subtitle {
   color: #eae9ee; }
 
 #projects a {
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #6f9fd4; }
 
 #projects .date {
@@ -177,14 +159,36 @@ header .subtitle {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  padding: 2vh 0;
   width: 100vw;
   background-color: #e7e6eb;
   font-size: 0.9em; }
 
-header, section {
+header {
+  width: 100%; }
+
+section {
   width: 80%; }
 
 @media print {
   body {
-    -webkit-print-color-adjust: exact; } }
+    -webkit-print-color-adjust: exact;
+    transform: scale(0.9);
+    margin-top: 0mm;
+    margin-bottom: 2mm; }
+  .pdf-container {
+    display: none; } }
+
+@page {
+  margin-top: 0cm;
+  margin-bottom: 0.2cm; }
+
+.pdf-container {
+  position: absolute;
+  font-size: 2em;
+  right: 1em;
+  top: 1em;
+  transition: 0.4s all; }
+  .pdf-container i {
+    cursor: pointer; }
+  .pdf-container:hover {
+    color: #e13d3e; }
