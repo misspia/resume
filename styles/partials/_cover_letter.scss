@@ -1,0 +1,21 @@
+#letter{
+	font-size: 1em;
+	
+	.section{
+		width: 90%;
+		padding: 0.8em 0;
+	}
+	.close, .address{
+		span{
+			padding: 0.1em 0;
+		}
+	}
+	.body{
+		line-height:1.25em;
+
+		.link{
+			color:$highlight;
+
+		}
+	}
+}

@@ -8,6 +8,7 @@
 @import 'partials/skills';
 @import 'partials/projects';
 @import 'partials/experience';
+@import 'partials/cover_letter';
 
 body {
   font-family: $fontBody;
@@ -26,8 +27,9 @@ section {
 @media print {
 	body {
 		-webkit-print-color-adjust: exact;
-		transform: scale(0.9);
-		margin-top: 0mm; margin-bottom: 2mm; 
+		transform:  scale(0.95);
+		margin-top: 0mm; margin-bottom: 0mm; 
+		font-size: 0.85em;
 	}
 	.pdf-container{
 		display:none;
@@ -35,7 +37,7 @@ section {
 }
  @page {
     margin-top: 0cm;
-    margin-bottom: 0.2cm;
+    margin-bottom: 0cm;
  }
 
 .pdf-container{
@@ -47,10 +49,9 @@ section {
 	&:hover{ color: $adobe; }
 }
 
-
-// https://dribbble.com/shots/1952826-Resume-CV-Brice
-// https://dribbble.com/shots/1909799-Resume-CV-Bailey
-// https://dribbble.com/shots/1552846-CV
-// http://cdn.hloom.com/images/277-Discreetly-Modern.jpg
-
-// http://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages
+@media screen and (max-device-width: 500px)  {
+	body{
+		padding: 1em 0.5em;
+		font-size: 1.65em;
+	}
+}

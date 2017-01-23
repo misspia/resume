@@ -23,13 +23,13 @@ hr {
 
 .title {
   letter-spacing: 0.2em;
-  font-size: 1.5em; }
+  font-size: 1.3em; }
 
 .subtitle {
   font-size: 1.1em; }
 
 .section-title {
-  padding-bottom: 0.3em; }
+  padding-bottom: 0.12em; }
 
 .intext-divider {
   padding: 0 0.5em; }
@@ -131,6 +131,9 @@ header .title {
 header .subtitle {
   font-size: 1.8em; }
 
+header .spaced-content li {
+  padding: 0.1em 0; }
+
 .hexagon-container i, .hexagon-container span {
   position: absolute;
   color: #eae9ee;
@@ -156,6 +159,21 @@ header .subtitle {
 #experience .description span {
   padding: 0.2em 0; }
 
+#experience .date {
+  padding: 0.15em 0; }
+
+#letter {
+  font-size: 1em; }
+  #letter .section {
+    width: 90%;
+    padding: 0.8em 0; }
+  #letter .close span, #letter .address span {
+    padding: 0.1em 0; }
+  #letter .body {
+    line-height: 1.25em; }
+    #letter .body .link {
+      color: #6f9fd4; }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -172,15 +190,16 @@ section {
 @media print {
   body {
     -webkit-print-color-adjust: exact;
-    transform: scale(0.9);
+    transform: scale(0.95);
     margin-top: 0mm;
-    margin-bottom: 2mm; }
+    margin-bottom: 0mm;
+    font-size: 0.85em; }
   .pdf-container {
     display: none; } }
 
 @page {
   margin-top: 0cm;
-  margin-bottom: 0.2cm; }
+  margin-bottom: 0cm; }
 
 .pdf-container {
   position: absolute;
@@ -192,3 +211,8 @@ section {
     cursor: pointer; }
   .pdf-container:hover {
     color: #e13d3e; }
+
+@media screen and (max-device-width: 500px) {
+  body {
+    padding: 1em 0.5em;
+    font-size: 1.65em; } }
