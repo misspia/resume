@@ -1,7 +1,7 @@
 @import url(font.css);
 a {
   text-decoration: none;
-  color: #028dbd; }
+  color: #1c1b1c; }
   a:active, a:visited {
     color: initial; }
 
@@ -16,10 +16,10 @@ hr {
   font-weight: 300; }
 
 .dark {
-  color: #028dbd; }
+  color: #1c1b1c; }
 
 .light {
-  color: #3caacc; }
+  color: #767678; }
 
 .title {
   letter-spacing: 0.2em;
@@ -143,7 +143,7 @@ header .spaced-content li {
   margin: 0.3em 0.4em;
   padding: 0.2em 0.5em;
   border-radius: 0.2em;
-  background-color: #3caacc;
+  background-color: #767678;
   color: #eae9ee; }
 
 #projects a {
