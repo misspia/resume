@@ -23,13 +23,13 @@ hr {
 
 .title {
   letter-spacing: 0.2em;
-  font-size: 1.3em; }
+  font-size: 1.2em; }
 
 .subtitle {
   font-size: 1.1em; }
 
 .section-title {
-  padding-bottom: 0.12em; }
+  padding-bottom: 0.1em; }
 
 .intext-divider {
   padding: 0 0.5em; }
@@ -43,7 +43,7 @@ section table tr td {
     flex: 3.5; }
 
 .spaced-content li {
-  padding: 0.2em 0; }
+  padding: 0.12em 0; }
 
 .description {
   font-size: 0.9em; }
@@ -151,7 +151,7 @@ header .spaced-content li {
   color: #6f9fd4; }
 
 #projects .date {
-  padding-bottom: 0.2em; }
+  padding-bottom: 0.1em; }
 
 #projects .small {
   font-size: 0.8em; }
@@ -160,7 +160,7 @@ header .spaced-content li {
   padding: 0.2em 0; }
 
 #experience .date {
-  padding: 0.15em 0; }
+  padding: 0.1em 0; }
 
 #letter {
   font-size: 1em; }
@@ -179,7 +179,7 @@ body {
   font-weight: 100;
   width: 100vw;
   background-color: #e7e6eb;
-  font-size: 0.9em; }
+  font-size: 0.8em; }
 
 header {
   width: 100%; }
