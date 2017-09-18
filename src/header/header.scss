@@ -1,0 +1,21 @@
+@import '../variables.scss';
+
+.header {
+	.name {
+		display: flex;
+		.firstname, .lastname {
+			font-size: 5em;
+		}
+		.firstname {
+			color: $accent;
+		}
+		.lastname {
+
+		}
+	}
+	.subtitle {
+		color: $darkfade;
+		font-size: 2em;
+	}
+		
+}

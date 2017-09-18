@@ -1,0 +1,10 @@
+@import '../variables.scss';
+
+.subheader {
+	font-size: 2em;
+	font-weight: 400;
+	width: 100%;
+	border-bottom: solid $darkfade 1px;
+	margin: 0.5em 0;
+	letter-spacing: 2px;
+}
