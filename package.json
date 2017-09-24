@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/misspia/resume/issues"
   },
-  "homepage": "https://github.com/misspia/resume#readme",
+  "homepage": "https://github.com/misspia/resume/",
   "devDependencies": {},
   "dependencies": {
     "babel-core": "^6.26.0",
