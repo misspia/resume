@@ -1,3 +1,28 @@
+@import '../variables.scss';
+
 .experiences {
-	
+	.experience {
+		margin: 0.3em 0 0.4em 0;
+		.header {
+			display: flex;
+			justify-content: space-between;
+			font-size: 1em;
+			.company {
+				color: $accent;
+			}
+			.title {
+				display: flex;
+				font-weight: $bold;
+				color: $accent;
+				&>*{
+					margin: 0 0.5em;
+				}
+			}
+			.date {
+				text-transform: uppercase;
+				font-size: 0.8em;
+				color: $accent;
+			}
+		}
+	}
 }

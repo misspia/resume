@@ -2,9 +2,9 @@ module.exports = {
 	title: 'skills',
 	skills: [
 		{
-			title: 'development languages',
+			title: 'Development Languages',
 			list: [
-				'JavaScript', 'Python', 'C++', 'Scheme',
+				'JavaScript (ES6)', 'Python', 'C++', 'Scheme',
 				'HTML', 'CSS', 'SQL', 'GLSL', 'QML'
 			]
 		},
@@ -19,7 +19,7 @@ module.exports = {
 		{
 			title: 'Other Tools',
 			list: [
-				'Postgres', 'Git' , 'Qt'
+				'Postgres', 'React Native', 'Qt', 'Git'
 			]
 		}
 	]

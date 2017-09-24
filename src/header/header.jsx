@@ -4,28 +4,28 @@ import Metadata from './metadata.js';
 import './header.scss';
 
 class Header extends Component {
+	renderName() {
+		return <div className='name'>
+				<div className='firstname'>{Metadata.firstname}</div>
+				<div className='lastname'>{Metadata.lastname}</div>
+			</div>;
+	}
 	renderLinks() {
-		const links = ['github', 'email', 'linkedin'];
-		return links.map((link) => {
-			return this.renderLink(link)
+		return Metadata.links.map((link, key) => {
+			return this.renderLink(link, key);
 		})
 	}
-	renderLink(link) {
-		const meta = Metadata[link];
-		return <div key={link} className='link'>
-			<i className={meta.icon}></i>
-			<a href={meta.src}>
-				{meta.display}
-			</a> 
+	renderLink(link, key) {
+		return <div key={key} className='link'>
+			<i className={link.icon}></i>
+			<a href={link.src}>{link.display}</a>
 		</div>
 	}
 	render() {
 		return <div className='header'>
-			<div className='name'>
-				<div className='firstname'>{Metadata.firstname}</div>
-				<div className='lastname'>{Metadata.lastname}</div>
-			</div>
-			<div className='subtitle'>{Metadata.subtitle}</div>
+			<div>
+				{this.renderName()}
+			</div>		
 			<div className='links'>
 				{this.renderLinks()}
 			</div>	

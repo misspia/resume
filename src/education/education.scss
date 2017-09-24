@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.education {
+	display: flex;
+	flex-direction: column;
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		.title {
+			display: flex;
+			.school {
+				font-weight: 400;
+				font-size: 1em;
+				color: $accent;
+			}
+		}
+		.date {
+			text-transform: uppercase;
+			font-size: 0.9em;
+			text-align: right;
+			&>* {
+				padding: 0.1em;
+			}
+		}
+	}
+
+}

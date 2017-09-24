@@ -12,14 +12,17 @@ class Experiences extends Component {
 		})
 	}
 	renderExperience(experience, index) {
-		// console.log(experience)
 		return <Experience
 				key={index}
 				title={experience.title}
-				date={experience.data}
+				division={experience.division}
+				company={experience.company}
+				companySrc={experience.companySrc}
+				startdate={experience.startdate}
+				enddate={experience.enddate}
 				link={experience.link}
-				description={experience.description}
-				tools={experience.tools}
+				descriptions={experience.descriptions}
+				keywords={experience.keywords}
 			/>
 	}
 	render() {

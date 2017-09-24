@@ -15,8 +15,10 @@ class Projects extends Component {
 		return <Project
 				key={index}
 				title={project.title}
-				date={project.data}
+				startdate={project.startdate}
+				enddate={project.enddate}
 				link={project.link}
+				linkDisplay={project.linkDisplay}
 				descriptions={project.descriptions}
 				keywords={project.keywords}
 				tools={project.tools}
