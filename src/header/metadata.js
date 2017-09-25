@@ -4,8 +4,8 @@ module.exports = {
 	subtitle: 'web developer',
 	links: [
 		{
-			display: 'misspia.codes',
-			src: 'misspia.codes',
+			display: 'misspia.me',
+			src: 'http://misspia.me/',
 			icon: 'ion-flame'
 		},
 		{

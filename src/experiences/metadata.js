@@ -5,7 +5,7 @@ module.exports = {
 			title: 'Freelancer / co-founder',
 			division: '',
 			company: 'studio-ki.co',
-			companySrc: '',
+			companySrc: 'http://studio-ki.co/',
 			startdate: 'sept 2017',
 			enddate: 'present',
 			descriptions: [
@@ -29,15 +29,15 @@ module.exports = {
 			enddate: 'present',
 			descriptions: [
 				`
-					Developed intuitive interfaces using React with flux to communicate 
-					with manufacturing machinery software via WebSocket connection
+					Reduced manufacturing process time by 33% by developing intuitive interfaces 
+					using React with flux to communicate with machinery software via WebSockets
 				`,
 				`
-					Improved codebase quality by migrating and re-architecting 
-					legacy web applications to React
+					Increased scalability by migrating and re-architecting legacy 
+					web applications to modern frameworks
 				`,
 			],
-			keywords: ['React', 'Redux', 'flux', 'Node.js']
+			keywords: ['React', 'flux', 'WebSockets', 'Increased scalability', 'Reduced manufacturing process time']
 		},
 		{
 			title: 'Software Engineer',
@@ -48,18 +48,18 @@ module.exports = {
 			enddate: 'aug 2017',
 			descriptions: [
 				`
-					Architected a React CRUD app that manages software updates to 
-					improve QA Team work flow
+					Architected a React CRUD app that manages software updates, 
+					reducing QA inaccuracy by 90% 
 				`,
 				`
 					Developed Qt / QML applications for user testing to validate product designs
 				`,
 				`
 					Implemented a desktop screen capture tool using Electron that streams 
-					image / video data on remote devices using Node.js to improve Design team efficiency
+					image / video data to remote devices, improving Design team efficiency
 				`
 			],
-			keywords: ['React', 'flux', 'Node.js', 'Electron', 'Qt', 'QML', 'WebSocket']
+			keywords: ['React', 'flux', 'Node.js', 'Electron', 'Qt', 'QML', 'reducing QA inaccuracy', "reducing QA inaccuracy by 90%"]
 		},
 		{
 			title: 'Full Stack Developer',

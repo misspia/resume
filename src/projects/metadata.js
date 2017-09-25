@@ -31,7 +31,7 @@ module.exports = {
 				efficient read access 
 			`,
 			`
-				Implemented front-end using React + Redux and routing with a Node.js (Express) backend to handle
+				Implemented front-end using React + Redux with a Node.js (Express) backend to handle
 				database queries
 			`,
 			`

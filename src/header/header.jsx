@@ -18,7 +18,7 @@ class Header extends Component {
 	renderLink(link, key) {
 		return <div key={key} className='link'>
 			<i className={link.icon}></i>
-			<a href={link.src}>{link.display}</a>
+			<a href={link.src} target='_blank'>{link.display}</a>
 		</div>
 	}
 	render() {

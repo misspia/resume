@@ -6,7 +6,7 @@ class Project extends Component {
 		return <div className='header'>
 			<div className='title'>
 				{this.props.title}
-				<a href={this.props.link}>
+				<a href={this.props.link} target='_blank'>
 					{this.props.linkDisplay}
 				</a>
 			</div>
