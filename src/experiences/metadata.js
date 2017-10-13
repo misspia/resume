@@ -22,7 +22,7 @@ module.exports = {
 		},
 		{
 			title: 'Software Engineer, part-time',
-			division: 'Manufacturing Tools',
+			division: 'Manufacturing Automation',
 			company: 'Thalmic Labs',
 			companySrc: 'https://www.thalmic.com/',
 			startdate: 'sept 2017',

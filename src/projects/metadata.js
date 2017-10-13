@@ -5,26 +5,26 @@ module.exports = {
 			title: 'League of Legends Analytics Tool',
 			startdate: 'sept 2017',
 			enddate: 'present',
-			link: 'http://bit.ly/2xthg7l',
-			linkDisplay: 'bit.ly/2xthg7l',
+			link: 'http://bit.ly/2wtR8I3',
+			linkDisplay: 'bit.ly/2wtR8I3',
 			descriptions: [
+			`
+				Designed and implemented a high-impact, user-centered Flask application with a
+				React + Redux front end to visualize game analytics
+			`,
 			`
 				Developed a Python scraper and architected a Postgres database with sequelize to store
 				and serve League of Legends champion and gameplay data
-			`,
 			`
-				Designed and implemented a high-impact, user-centered React + Redux front end to visualize 
-				game analytics
-			` 
 			], 
-			keywords: ['Python', 'Jupyter Notebook', 'sequelize', 'Postgres', 'React', 'Redux', 'user-centered']
+			keywords: ['Flask', 'Python', 'Jupyter Notebook', 'sequelize', 'Postgres', 'React', 'Redux', 'user-centered']
 		},
 		{
-			title: 'Pokedex',
+			title: 'Pokedex Web App + API',
 			startdate: 'apr 2017',
 			enddate: 'present',
-			link: 'http://bit.ly/2fJHcUi',
-			linkDisplay: 'bit.ly/2fJHcUi',
+			link: 'http://bit.ly/2yhWQ1h',
+			linkDisplay: 'bit.ly/2yhWQ1h',
 			descriptions: [
 				`
 				Architected a Postgres database to store Pokemon data scraped using Node.js for
@@ -41,7 +41,7 @@ module.exports = {
 			keywords: ['Postgres', 'Node.js', 'React', 'Redux', 'routing', 'Express', 'Webpack 2']
 		},
 		{
-			title: 'Audio Visualizer',
+			title: 'Geometric Audio Wave Form Visualizer',
 			startdate: 'jun 2017',
 			enddate: 'july 2017',
 			link: 'http://bit.ly/2fjxBTS',
