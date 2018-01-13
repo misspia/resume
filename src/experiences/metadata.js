@@ -2,10 +2,10 @@ module.exports = {
 	title: 'experience',
 	experiences: [
 		{
-			title: 'Freelancer / co-founder',
+			title: 'Freelancer',
 			division: '',
-			company: 'studio-ki.co',
-			companySrc: 'http://studio-ki.co/',
+			company: 'misspia.me',
+			companySrc: 'http://misspia.me/',
 			startdate: 'sept 2017',
 			enddate: 'present',
 			descriptions: [
@@ -14,8 +14,7 @@ module.exports = {
 					to bring mobile and web applications to life 
 				`,
 				`
-					Made architectural desicions to create scalable applications, 
-					directed branding and financial operations
+					Made architectural desicions to create scalable applications
 				`
 			],
 			keywords: ['mobile', 'web', 'scalable' ]
@@ -26,7 +25,7 @@ module.exports = {
 			company: 'Thalmic Labs',
 			companySrc: 'https://www.thalmic.com/',
 			startdate: 'sept 2017',
-			enddate: 'present',
+			enddate: 'dec 2017',
 			descriptions: [
 				`
 					Reduced manufacturing process time by 33% by developing intuitive interfaces 

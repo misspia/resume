@@ -2,22 +2,21 @@ module.exports = {
 	title: 'projects',
 	projects: [
 		{
-			title: 'League of Legends Analytics Tool',
-			startdate: 'sept 2017',
-			enddate: 'present',
-			link: 'http://bit.ly/2wtR8I3',
-			linkDisplay: 'bit.ly/2wtR8I3',
+			title: 'WebGL Low Poly Solar System',
+			startdate: 'dec 2017',
+			enddate: 'jan 2018',
+			link: 'http://bit.ly/2DasL8M',
+			linkDisplay: 'bit.ly/2DasL8M',
 			descriptions: [
 			`
-				Designed and implemented a high-impact, user-centered Flask application with a
-				React + Redux front end to visualize game analytics
+				Used an object oriented approach to implement a WebGL Solar System by creating geometies 
+				and textures in ThreeJS to render 3D planets 
 			`,
 			`
-				Developed a Python scraper and architected a Postgres database with sequelize to store
-				and serve League of Legends champion and gameplay data
+				Optimized rendering of orbits by merging planetary verticies to reduce the total draw calls per frame
 			`
 			], 
-			keywords: ['Flask', 'Python', 'Jupyter Notebook', 'sequelize', 'Postgres', 'React', 'Redux', 'user-centered']
+			keywords: ['object oriented', 'ThreeJS', 'WebGL', 'geometries and meshes', 'sequelize', 'Optimized rendering', 'draw calls per frame']
 		},
 		{
 			title: 'Pokedex Web App + API',
