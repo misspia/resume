@@ -2,26 +2,42 @@ module.exports = {
 	title: 'projects',
 	projects: [
 		{
-			title: 'WebGL Low Poly Solar System',
-			startdate: 'dec 2017',
-			enddate: 'jan 2018',
-			link: 'http://bit.ly/2DasL8M',
-			linkDisplay: 'bit.ly/2DasL8M',
+			title: 'WebGL Sketchbook',
+			startdate: 'jan 2018',
+			enddate: 'present',
+			link: 'http://bit.ly/2BcthOE',
+			linkDisplay: 'bit.ly/2BcthOE',
 			descriptions: [
 			`
-				Used an object oriented approach to implement a WebGL Solar System by creating geometies 
-				and textures in ThreeJS to render 3D planets 
+				A collection of shaders exploring various techniques in WebGL/GLSL including metaballs, 
+				particle systems and noise functions. Implemented using an object oriented approach
 			`,
-			`
-				Optimized rendering of orbits by merging planetary verticies to reduce the total draw calls per frame
-			`
+			`	Handled routing and mounting between sketches via React + React Router 
+			`,
 			], 
-			keywords: ['object oriented', 'ThreeJS', 'WebGL', 'geometries and meshes', 'sequelize', 'Optimized rendering', 'draw calls per frame']
+			keywords: ['shaders', 'WebGL', 'GLSL', 'object oriented', 'React', 'Router']
 		},
+		// {
+		// 	title: 'WebGL Low Poly Solar System',
+		// 	startdate: 'dec 2017',
+		// 	enddate: 'jan 2018',
+		// 	link: 'http://bit.ly/2DasL8M',
+		// 	linkDisplay: 'bit.ly/2DasL8M',
+		// 	descriptions: [
+		// 	`
+		// 		Used an object oriented approach to implement a WebGL Solar System by creating geometies 
+		// 		and textures in ThreeJS to render 3D planets 
+		// 	`,
+		// 	`
+		// 		Optimized rendering of orbits by merging planetary verticies to reduce the total draw calls per frame
+		// 	`
+		// 	], 
+		// 	keywords: ['object oriented', 'ThreeJS', 'WebGL', 'geometries and meshes', 'sequelize', 'Optimized rendering', 'draw calls per frame']
+		// },
 		{
 			title: 'Pokedex Web App + API',
-			startdate: 'apr 2017',
-			enddate: 'present',
+			startdate: 'oct 2017',
+			enddate: 'jan 2018',
 			link: 'http://bit.ly/2yhWQ1h',
 			linkDisplay: 'bit.ly/2yhWQ1h',
 			descriptions: [
@@ -40,7 +56,7 @@ module.exports = {
 			keywords: ['Postgres', 'Node.js', 'React', 'Redux', 'routing', 'Express', 'Webpack 2']
 		},
 		{
-			title: 'Geometric Audio Wave Form Visualizer',
+			title: 'Processing Audiograph',
 			startdate: 'jun 2017',
 			enddate: 'july 2017',
 			link: 'http://bit.ly/2fjxBTS',
@@ -64,14 +80,15 @@ module.exports = {
 			linkDisplay: 'bit.ly/2xoWW9j',
 			descriptions: [
 				`
-					Scraped and aggregated esports earnings data using Node.js
+					Scraped and aggregated esports earnings data with Node.js using a 
+					functional paradigm
 				`,
 				`
 					Rendered processed data into a 3D self-rotating globe choropleth (heatmap) 
 					using D3.js
 				`
 			], 
-			keywords: ['Node.js', 'D3.js']
+			keywords: ['Node.js', 'functional', 'D3.js']
 		},
 		
 	]

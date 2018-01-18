@@ -6,7 +6,7 @@ module.exports = {
 		{
 			display: 'misspia.me',
 			src: 'http://misspia.me/',
-			icon: 'ion-flame'
+			icon: 'ion-android-home'
 		},
 		{
 			display: 'miss.pialeung@gmail.com',
@@ -22,7 +22,7 @@ module.exports = {
 			display: 'github.com/misspia',
 			src: 'https://github.com/misspia',
 			icon: 'ion-social-octocat'
-		} 
+		},
 	]
 		
 };

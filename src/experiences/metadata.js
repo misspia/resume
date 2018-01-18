@@ -20,7 +20,7 @@ module.exports = {
 			keywords: ['mobile', 'web', 'scalable' ]
 		},
 		{
-			title: 'Software Engineer, part-time',
+			title: 'Software Engineer Intern',
 			division: 'Manufacturing Automation',
 			company: 'Thalmic Labs',
 			companySrc: 'https://www.thalmic.com/',
@@ -39,7 +39,7 @@ module.exports = {
 			keywords: ['React', 'flux', 'WebSockets', 'Increased scalability', 'Reduced manufacturing process time']
 		},
 		{
-			title: 'Software Engineer',
+			title: 'Software Engineer Intern',
 			division: 'Prototyping',
 			company: 'Thalmic Labs',
 			companySrc: 'https://www.thalmic.com/',
@@ -47,7 +47,7 @@ module.exports = {
 			enddate: 'aug 2017',
 			descriptions: [
 				`
-					Architected a React CRUD app that manages software updates, 
+					Architected a React CRUD app that manages software updates and releases, 
 					reducing QA inaccuracy by 90% 
 				`,
 				`
@@ -61,7 +61,7 @@ module.exports = {
 			keywords: ['React', 'flux', 'Node.js', 'Electron', 'Qt', 'QML', 'reducing QA inaccuracy', "reducing QA inaccuracy by 90%"]
 		},
 		{
-			title: 'Full Stack Developer',
+			title: 'Full Stack Developer Intern',
 			division: 'Lab of Forward Thinking',
 			company: 'Manulife',
 			companySrc: 'https://ca.linkedin.com/company/lab-of-forward-thinking',

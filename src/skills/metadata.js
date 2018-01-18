@@ -4,22 +4,27 @@ module.exports = {
 		{
 			title: 'Development Languages',
 			list: [
-				'JavaScript (ES6)', 'Python', 'C++', 'C', 'Scheme',
-				'HTML', 'CSS', 'SQL', 'GLSL'
+				'JavaScript (ES6)', 'C++', 'C', 'Scheme',
+				'HTML/CSS', 'SQL', 'GLSL'
 			]
 		},
 		{
-			title: 'Web Tools',
+			title: 'Web',
 			list: [
-				'Node.js', 'Flask', 'React', 'Redux', 'Angular', 'Electron',
-				'Webpack', 'Gulp', 'Sass', 'Less', 'D3.js', 'WebGL',
-				'Express'
+				'Node.js', 'React', 'Redux', 'Angular', 'Electron',
+				 'Sass', 'D3.js', 'Express', 'Webpack', 'Gulp'
 			]
 		},
 		{
-			title: 'Other Tools',
+			title: 'Graphics',
 			list: [
-				'Postgres', 'React Native', 'Qt', 'Git', 'Blender 3D'
+				'WebGL', 'ThreeJS', 'Canvas', 'Blender3D'
+			]
+		},
+		{
+			title: 'Other',
+			list: [
+				'Postgres', 'React Native', 'Qt', 'Git'
 			]
 		}
 	]
