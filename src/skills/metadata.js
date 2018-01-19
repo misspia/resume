@@ -4,8 +4,8 @@ module.exports = {
 		{
 			title: 'Development Languages',
 			list: [
-				'JavaScript (ES6)', 'C++', 'C', 'Scheme',
-				'HTML/CSS', 'SQL', 'GLSL'
+				'JavaScript (ES6)', 'GLSL', 'SQL', 'C++', 
+				'C', 'Scheme', 'HTML/CSS'
 			]
 		},
 		{
@@ -18,7 +18,7 @@ module.exports = {
 		{
 			title: 'Graphics',
 			list: [
-				'WebGL', 'ThreeJS', 'Canvas', 'Blender3D'
+				'WebGL', 'Shaders', 'ThreeJS', 'Blender3D'
 			]
 		},
 		{

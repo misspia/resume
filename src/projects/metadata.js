@@ -9,13 +9,13 @@ module.exports = {
 			linkDisplay: 'bit.ly/2BcthOE',
 			descriptions: [
 			`
-				A collection of shaders exploring various techniques in WebGL/GLSL including metaballs, 
+				A collection of shaders exploring various raw WebGL/GLSL techniques including metaballs, 
 				particle systems and noise functions. Implemented using an object oriented approach
 			`,
 			`	Handled routing and mounting between sketches via React + React Router 
 			`,
 			], 
-			keywords: ['shaders', 'WebGL', 'GLSL', 'object oriented', 'React', 'Router']
+			keywords: ['shaders', 'raw WebGL', 'GLSL', 'object oriented', 'React', 'Router']
 		},
 		// {
 		// 	title: 'WebGL Low Poly Solar System',
