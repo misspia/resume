@@ -5,7 +5,7 @@ module.exports = {
 			title: 'Development Languages',
 			list: [
 				'JavaScript (ES6)', 'GLSL', 'SQL', 'C++', 
-				'C', 'Scheme', 'HTML/CSS'
+				'C#', 'C', 'Scheme', 'HTML/CSS'
 			]
 		},
 		{

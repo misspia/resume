@@ -9,8 +9,9 @@ module.exports = {
 			linkDisplay: 'bit.ly/2BcthOE',
 			descriptions: [
 			`
-				A collection of shaders exploring various raw WebGL/GLSL techniques including metaballs, 
-				particle systems and noise functions. Implemented using an object oriented approach
+				A collection of shaders exploring various raw WebGL/GLSL techniques including 
+				raymarching, signed distance functions and noise functions. Implemented 
+				using an object oriented approach
 			`,
 			`	Handled routing and mounting between sketches via React + React Router 
 			`,
@@ -50,10 +51,10 @@ module.exports = {
 				database queries
 			`,
 			`
-				Optimized production build and development process using customized Webpack 2 configurations
+				Optimized production build and development process using customized Webpack 3 configurations
 			`,
 			], 
-			keywords: ['Postgres', 'Node.js', 'React', 'Redux', 'routing', 'Express', 'Webpack 2']
+			keywords: ['Postgres', 'Node.js', 'React', 'Redux', 'routing', 'Express', 'Webpack 3']
 		},
 		{
 			title: 'Processing Audiograph',
