@@ -10,7 +10,7 @@ module.exports = {
 			descriptions: [
 			`
 				A collection of shaders exploring various raw WebGL/GLSL techniques including 
-				raymarching, signed distance functions and noise functions. Implemented 
+				ray marching, signed distance functions and noise functions. Implemented 
 				using an object oriented approach
 			`,
 			`	Handled routing and mounting between sketches via React + React Router 
