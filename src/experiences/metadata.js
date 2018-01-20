@@ -14,7 +14,7 @@ module.exports = {
 					to bring mobile and web applications to life 
 				`,
 				`
-					Made architectural desicions to create scalable applications
+					Made architectural decisions to create scalable applications
 				`
 			],
 			keywords: ['mobile', 'web', 'scalable' ]
