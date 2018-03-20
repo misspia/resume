@@ -4,7 +4,7 @@ module.exports = {
 		{
 			title: 'Development Languages',
 			list: [
-				'JavaScript (ES6)', 'GLSL', 'SQL', 'C++', 
+				'JavaScript (ES6)', 'GLSL', 'SQL', 'C++',
 				'C#', 'C', 'Scheme', 'HTML/CSS'
 			]
 		},
@@ -24,7 +24,7 @@ module.exports = {
 		{
 			title: 'Other',
 			list: [
-				'Postgres', 'React Native', 'Qt', 'Git'
+				'Postgres', 'React Native', 'Unity', 'Qt', 'Git'
 			]
 		}
 	]
