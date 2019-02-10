@@ -2,29 +2,30 @@ module.exports = {
 	title: 'skills',
 	skills: [
 		{
-			title: 'Development Languages',
+			title: 'Languages',
 			list: [
-				'JavaScript (ES6)', 'GLSL', 'SQL', 'C++',
-				'C#', 'C', 'Scheme', 'HTML/CSS'
+				'JavaScript (ES7)', 'TypeScript', 'GLSL', 'C++',
+				'C#', 'C', 'QML', 'HTML/CSS'
 			]
 		},
 		{
 			title: 'Web',
 			list: [
-				'Node.js', 'React', 'Redux', 'Angular', 'Electron',
-				 'Sass', 'D3.js', 'Express', 'Webpack', 'Gulp'
+				'Node.js', 'React', 'Redux', 'Apollo GraphQL', 
+				'Angular', 'Electron',
+				'D3.js', 'Sass', 'Webpack'
 			]
 		},
 		{
-			title: 'Graphics',
+			title: 'Graphics / Engines',
 			list: [
-				'WebGL', 'Shaders', 'ThreeJS', 'Blender3D'
+				'WebGL', 'Shaders', 'Three.js', 'Blender3D', 'Unity3D'
 			]
 		},
 		{
 			title: 'Other',
 			list: [
-				'Postgres', 'React Native', 'Unity', 'Qt', 'Git'
+				'GraphQL', 'Postgres', 'React Native', 'Qt', 'Git'
 			]
 		}
 	]

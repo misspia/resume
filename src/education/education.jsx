@@ -14,7 +14,6 @@ class Education extends Component {
 	renderDate() {
 		return <div className='date'>
 			<div className='class'>Class of {Metadata.class}</div>
-			<div className='graduation'>expected gradiation: {Metadata.graduation}</div>
 		</div>
 	}
 	render() {
