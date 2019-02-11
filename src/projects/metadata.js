@@ -10,8 +10,8 @@ module.exports = {
 			linkDisplay: 'bit.ly/2BcthOE',
 			descriptions: [
 			`
-				A sandbox and journal for documenting my WebGL journey. Contains a collention 
-				of shaders and Three.js experiments exploring noise functions, ray marching, 
+				A sandbox and journal for documenting my WebGL journey. Contains a collection 
+				of shaders and Three.js experiments exploring noise functions, 
 				postprocessing techniques and more 	
 			`,
 			// `

@@ -28,7 +28,7 @@ module.exports = {
 					frontend and communicated with a GraphQL backend. Contributed to Jest component testing 
 				`,
 				`
-					Developed internal theming library based on emotion.js and created reusuable form components
+					Developed internal theming library based on emotion.js and created reusable form components
 				`,
 				`
 					Built a sankey diagram using D3.js that dynamically takes in and visualizes application usage data
@@ -50,10 +50,10 @@ module.exports = {
 				`,
 				`
 					Handled model uploads and interaction via Three.js. Features include drag & drop coloring of models 
-					using raytracing, model transformations and normalizing grouped model uploads
+					using ray tracing, model transformations and normalizing grouped model uploads
 				`,
 				`
-					Implemented authentication and model slicing calls via Node.js backend ands Amazon's DynamoDB
+					Implemented authentication and model slicing calls via Node.js backend and Amazon's DynamoDB
 				`,
 			],
 			keywords: ['React/Redux', 'Three.js', 'sagas', 'DynamoDB',  'Node.js',], 
@@ -90,8 +90,8 @@ module.exports = {
 					Qt and legacy web apps to modern frameworks
 				`,
 				`
-					Developed React based tools using WebSockets and the browser's Gamepad API, allowing users 
-					to easily communicate with machinery via precision controllers
+					Developed React based tools using WebSockets and the browser's Gamepad API to allow users 
+					to easily communicate with production machinery via precision controllers
 				`,
 			],
 			keywords: ['React', 'flux', 'WebSockets', 'Gamepad API']
@@ -110,7 +110,7 @@ module.exports = {
 				`,
 				`
 					Implemented an Electron based screen capture tool that streams image/video data from the 
-					desktop to remote devices, allowing the designers to easily test their ideas on the smart glasses
+					desktop to remote devices, allowing designers to easily test their ideas on the smart glasses
 				`
 			],
 			keywords: ['React', 'Node.js', 'Electron', 'Qt', 'QML']
