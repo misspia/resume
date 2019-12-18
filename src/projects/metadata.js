@@ -13,7 +13,7 @@ module.exports = {
 				Received thousands of pageviews and hundreds of daily active users during the KCON LA 2019 event
 			`,
 			`
-				Delivered modular form components using React Hooks and Apollo Client
+				Developed modular form components using React Hooks and handled requests with Apollo Client
 			`,
 			], 
 			keywords: ['Apollo Client', 'React Hooks', 'next.js', 'GraphQL', 'thousands', 'hundreds']
