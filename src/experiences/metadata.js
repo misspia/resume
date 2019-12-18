@@ -17,7 +17,7 @@ module.exports = {
 		// },
 		{
 			title: 'Frontend Developer',
-			division: '',
+			division: 'Interactive Web',
 			company: 'MediaMonks',
 			companySrc: 'https://www.mediamonks.com/',
 			startdate: 'may 2019',
