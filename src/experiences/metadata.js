@@ -16,6 +16,25 @@ module.exports = {
 		// 	keywords: []
 		// },
 		{
+			title: 'Frontend Developer',
+			division: '',
+			company: 'MediaMonks',
+			companySrc: 'https://www.mediamonks.com/',
+			startdate: 'may 2019',
+			enddate: 'present',
+			descriptions: [
+				`
+					Implemented a messaging app with chat subscriptions and instagram-like user 
+					stories using Vue.js
+				`,
+				`
+					Delivered an interactive build-to-order tool for Hyundai's G80 model 
+					using Vue.js and GSAP animations
+				`,
+			],
+			keywords: ['Vue.js', 'chat subscriptions', 'GSAP animations'],
+		},
+		{
 			title: 'Frontend Engineer',
 			division: '',
 			company: 'Yolk AI',
@@ -82,7 +101,7 @@ module.exports = {
 			division: 'Manufacturing Automation',
 			company: 'North (formerly Thalmic Labs)',
 			companySrc: 'https://www.bynorth.com/',
-			startdate: 'sept 2017',
+			startdate: 'may 2017',
 			enddate: 'dec 2017',
 			descriptions: [
 				`
@@ -96,25 +115,25 @@ module.exports = {
 			],
 			keywords: ['React', 'flux', 'WebSockets', 'Gamepad API']
 		},
-		{
-			title: 'Software Engineer Intern',
-			division: 'Prototyping',
-			company: 'North (formerly Thalmic Labs)',
-			companySrc: 'https://www.bynorth.com/',
-			startdate: 'may 2017',
-			enddate: 'aug 2017',
-			descriptions: [
-				`
-					Prototyped screens for AR smart glasses using Qt / QML 
-					for user testing to validate product designs
-				`,
-				`
-					Implemented an Electron based screen capture tool that streams image/video data from the 
-					desktop to remote devices, allowing designers to easily test their ideas on the smart glasses
-				`
-			],
-			keywords: ['React', 'Node.js', 'Electron', 'Qt', 'QML']
-		},
+		// {
+		// 	title: 'Software Engineer Intern',
+		// 	division: 'Prototyping',
+		// 	company: 'North (formerly Thalmic Labs)',
+		// 	companySrc: 'https://www.bynorth.com/',
+		// 	startdate: 'may 2017',
+		// 	enddate: 'aug 2017',
+		// 	descriptions: [
+		// 		`
+		// 			Prototyped screens for AR smart glasses using Qt / QML 
+		// 			for user testing to validate product designs
+		// 		`,
+		// 		`
+		// 			Implemented an Electron based screen capture tool that streams image/video data from the 
+		// 			desktop to remote devices, allowing designers to easily test their ideas on the smart glasses
+		// 		`
+		// 	],
+		// 	keywords: ['React', 'Node.js', 'Electron', 'Qt', 'QML']
+		// },
 		// {
 		// 	title: 'Full Stack Developer Intern',
 		// 	division: 'Lab of Forward Thinking',

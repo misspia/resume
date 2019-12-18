@@ -12,8 +12,8 @@ module.exports = {
 			title: 'Web',
 			list: [
 				'Node.js', 'React', 'Redux', 'Apollo GraphQL', 
-				'Angular', 'Electron',
-				'D3.js', 'Sass', 'Webpack'
+				'Next.js', 'Vue.js', 'D3.js', 'styled-components', 
+				'Webpack'
 			]
 		},
 		{
@@ -25,7 +25,7 @@ module.exports = {
 		{
 			title: 'Other',
 			list: [
-				'GraphQL', 'Postgres', 'React Native', 'Qt', 'Git'
+				'GraphQL', 'Postgres', 'React Native', 'Git'
 			]
 		}
 	]

@@ -1,7 +1,23 @@
 module.exports = {
 	title: 'projects',
 	projects: [
-		
+		{
+			title: 'Kaeswap',
+			startdate: 'dec 2018',
+			enddate: 'present',
+			link: 'https://kaeswap.com/',
+			linkDisplay: 'kaeswap.com',
+			descriptions: [
+			`	
+				A platform for K-Pop entusiasts to trade and resell merchandise and event tickets. 
+				Received thousands of pageviews and hundreds of daily active users during the KCON LA 2019 event
+			`,
+			`
+				Delivered modular form components using React Hooks and Apollo Client
+			`,
+			], 
+			keywords: ['Apollo Client', 'React Hooks', 'next.js', 'GraphQL', 'thousands', 'hundreds']
+		},
 		{
 			title: 'WebGL Sketchbook',
 			startdate: 'jan 2018',
@@ -24,22 +40,22 @@ module.exports = {
 			], 
 			keywords: ['shaders', 'Three.js', 'GLSL', 'React', 'Router']
 		},
-		{
-			title: 'Energy (Unity Audio Visualization)',
-			startdate: 'feb 2019',
-			enddate: 'feb 2019',
-			link: 'https://bit.ly/2SnSP8Y',
-			linkDisplay: 'bit.ly/2SnSP8Y',
-			descriptions: [
-			`
-				Produced a custom Unity experience using a combination of various particle systems, shaders and materials
-			`,
-			`
-				Analyzed and integrated audio spectrum data via manipulating particle emission rates, life, size and colors
-			`,
-			], 
-			keywords: ['Unity', '', '', '', '', '']
-		},
+		// {
+		// 	title: 'Energy (Unity Audio Visualization)',
+		// 	startdate: 'feb 2019',
+		// 	enddate: 'feb 2019',
+		// 	link: 'https://bit.ly/2SnSP8Y',
+		// 	linkDisplay: 'bit.ly/2SnSP8Y',
+		// 	descriptions: [
+		// 	`
+		// 		Produced a custom Unity experience using a combination of various particle systems, shaders and materials
+		// 	`,
+		// 	`
+		// 		Analyzed and integrated audio spectrum data via manipulating particle emission rates, life, size and colors
+		// 	`,
+		// 	], 
+		// 	keywords: ['Unity', '', '', '', '', '']
+		// },
 		// {
 		// 	title: 'WebGL Low Poly Solar System',
 		// 	startdate: 'dec 2017',
@@ -78,23 +94,6 @@ module.exports = {
 			], 
 			keywords: ['Postgres', 'Node.js', 'React', 'Redux', 'routing', 'Express', 'Webpack']
 		},
-		// {
-		// 	title: 'Processing Audiograph',
-		// 	startdate: 'jun 2017',
-		// 	enddate: 'july 2017',
-		// 	link: 'http://bit.ly/2fjxBTS',
-		// 	linkDisplay: 'bit.ly/2fjxBTS',
-		// 	descriptions: [
-		// 	`
-		// 		Structured a React playlist application using a flux based architecture
-		// 	`,
-		// 	`
-		// 		Analyzed and rendered audio frequency data 
-		// 		onto an HTML canvas using processing-like techniques 
-		// 	` 
-		// 	], 
-		// 	keywords: ['React', 'flux', 'processing', 'canvas']
-		// },
 		{
 			title: 'D3 Geographic Esports Visualization',
 			startdate: 'jan 2017',

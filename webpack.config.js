@@ -18,7 +18,6 @@ module.exports = {
 			test: /\.(js|jsx)$/, 
 			exclude: /node_modules/,
 			use: [
-			'jshint-loader',
 			{
 				loader: 'babel-loader',
 				options: {
