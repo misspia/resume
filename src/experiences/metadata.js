@@ -10,7 +10,7 @@ module.exports = {
 		// 	enddate: '',
 		// 	descriptions: [
 		// 		`
-					
+
 		// 		`,
 		// 	],
 		// 	keywords: []
@@ -24,27 +24,27 @@ module.exports = {
 			enddate: 'present',
 			descriptions: [
 				`
-					Implemented a messaging app with chat subscriptions and instagram-like user 
-					stories using Vue.js
+				Delivered an interactive build-to-order tool for Hyundai's G80 model
+				using Vue.js and GSAP animations
 				`,
 				`
-					Delivered an interactive build-to-order tool for Hyundai's G80 model 
-					using Vue.js and GSAP animations
+					Integrated with Google Vision and the browser's native media streamer
+					to create an AR simulation for user specified item detection
 				`,
 			],
-			keywords: ['Vue.js', 'chat subscriptions', 'GSAP animations'],
+			keywords: ['Google Vision', 'AR simulation', 'Vue.js', 'GSAP animations'],
 		},
 		{
 			title: 'Frontend Engineer',
-			division: '',
+			division: 'Platform',
 			company: 'Yolk AI',
 			companySrc: 'http://www.yolk.ai/',
 			startdate: 'july 2018',
 			enddate: 'jan 2019',
 			descriptions: [
 				`
-					Implemented features for service desk automation tools using a React / Apollo Client 
-					frontend and communicated with a GraphQL backend. Contributed to Jest component testing 
+					Implemented features for service desk automation tools using a React / Apollo Client
+					frontend and communicated with a GraphQL backend. Contributed to Jest component testing
 				`,
 				`
 					Developed internal theming library based on emotion.js and created reusable form components
@@ -64,20 +64,20 @@ module.exports = {
 			enddate: 'july 2018',
 			descriptions: [
 				`
-					Architected and prototyped the frontend for CANVAS, a React/Redux app for easing the process 
-					of preparing and slicing models for multi-material 3D printing  
+					Architected and prototyped the frontend for CANVAS, a React/Redux app for easing the process
+					of preparing and slicing models for multi-material 3D printing
 				`,
 				`
-					Handled model uploads and interaction via Three.js. Features include drag & drop coloring of models 
+					Handled model uploads and interaction via Three.js. Features include drag & drop coloring of models
 					using ray tracing, model transformations and normalizing grouped model uploads
 				`,
 				`
 					Implemented authentication and model slicing calls via Node.js backend and Amazon's DynamoDB
 				`,
 			],
-			keywords: ['React/Redux', 'Three.js', 'sagas', 'DynamoDB',  'Node.js',], 
+			keywords: ['React/Redux', 'Three.js', 'sagas', 'DynamoDB',  'Node.js',],
 		},
-	
+
 		// {
 		// 	title: 'Freelancer',
 		// 	division: '',
@@ -87,8 +87,8 @@ module.exports = {
 		// 	enddate: 'present',
 		// 	descriptions: [
 		// 		`
-		// 			Effectively worked with and provided consultation for clients 
-		// 			to bring mobile and web applications to life 
+		// 			Effectively worked with and provided consultation for clients
+		// 			to bring mobile and web applications to life
 		// 		`,
 		// 		`
 		// 			Made architectural decisions to create scalable applications
@@ -105,11 +105,11 @@ module.exports = {
 			enddate: 'dec 2017',
 			descriptions: [
 				`
-					Increased scalability of production tools by migrating 
+					Increased scalability of production tools by migrating
 					Qt and legacy web apps to modern frameworks
 				`,
 				`
-					Developed React based tools using WebSockets and the browser's Gamepad API to allow users 
+					Developed React based tools using WebSockets and the browser's Gamepad API to allow users
 					to easily communicate with production machinery via precision controllers
 				`,
 			],
@@ -124,11 +124,11 @@ module.exports = {
 		// 	enddate: 'aug 2017',
 		// 	descriptions: [
 		// 		`
-		// 			Prototyped screens for AR smart glasses using Qt / QML 
+		// 			Prototyped screens for AR smart glasses using Qt / QML
 		// 			for user testing to validate product designs
 		// 		`,
 		// 		`
-		// 			Implemented an Electron based screen capture tool that streams image/video data from the 
+		// 			Implemented an Electron based screen capture tool that streams image/video data from the
 		// 			desktop to remote devices, allowing designers to easily test their ideas on the smart glasses
 		// 		`
 		// 	],

@@ -4,15 +4,15 @@ module.exports = {
 		{
 			title: 'Languages',
 			list: [
-				'JavaScript (ES7)', 'TypeScript', 'GLSL', 'C++',
-				'C#', 'C', 'QML', 'HTML/CSS'
+				'JavaScript (ES7)', 'TypeScript', 'GLSL',
+				'C#', 'QML', 'HTML/CSS'
 			]
 		},
 		{
 			title: 'Web',
 			list: [
-				'Node.js', 'React', 'Redux', 'Apollo GraphQL', 
-				'Next.js', 'Vue.js', 'D3.js', 'styled-components', 
+				'Node.js', 'React', 'Redux', 'Apollo GraphQL',
+				'Next.js', 'Vue.js', 'D3.js', 'styled-components',
 				'Webpack'
 			]
 		},

@@ -15,8 +15,8 @@ class App extends Component {
 			<a className='file ion-document-text' href='./pialeung.pdf'></a>
 			<Header />
 			<Skills />
-			<Projects />
 			<Experiences />
+			<Projects />
 			<Education />
 		</div>;
 	}
