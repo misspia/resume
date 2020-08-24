@@ -25,4 +25,23 @@
 			}
 		}
 	}
+	.projects {
+		display: flex;
+		align-items: center;
+
+		padding-left: 0.3em;
+		padding-right: -0.5em;
+
+		.label {
+			font-weight: $bold;
+			margin-right: 0.3em;
+		}
+		.project {
+			margin-right: 0.5em;
+
+			.projectLink {
+				color: $blue;
+			}
+		}
+	}
 }

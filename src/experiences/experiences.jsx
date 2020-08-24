@@ -23,6 +23,7 @@ class Experiences extends Component {
 				link={experience.link}
 				descriptions={experience.descriptions}
 				keywords={experience.keywords}
+				projects={experience.projects}
 			/>
 	}
 	render() {

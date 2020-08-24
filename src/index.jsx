@@ -14,9 +14,9 @@ class App extends Component {
 		return <div className="app">
 			<a className='file ion-document-text' href='./pialeung.pdf'></a>
 			<Header />
-			<Skills />
 			<Experiences />
 			<Projects />
+			<Skills />
 			<Education />
 		</div>;
 	}

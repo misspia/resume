@@ -4,22 +4,21 @@ module.exports = {
 		{
 			title: 'Languages',
 			list: [
-				'JavaScript (ES7)', 'TypeScript', 'GLSL',
-				'C#', 'QML', 'HTML/CSS'
+				'JavaScript (ES7)', 'TypeScript', 'GLSL', 'HTML/CSS'
 			]
 		},
 		{
 			title: 'Web',
 			list: [
 				'Node.js', 'React', 'Redux', 'Apollo GraphQL',
-				'Next.js', 'Vue.js', 'D3.js', 'styled-components',
+				'Next.js', 'Vue.js', 'styled-components',
 				'Webpack'
 			]
 		},
 		{
 			title: 'Graphics / Engines',
 			list: [
-				'WebGL', 'Shaders', 'Three.js', 'Blender3D', 'Unity3D'
+				'WebGL', 'Shaders', 'Three.js'
 			]
 		},
 		{

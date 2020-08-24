@@ -24,13 +24,27 @@ module.exports = {
 			enddate: 'present',
 			descriptions: [
 				`
-				Delivered an interactive build-to-order tool for Hyundai's G80 model
-				using Vue.js and GSAP animations
+					Delivered an interactive build-to-order tool for Hyundai's G80 model
+					using Vue.js and GSAP animations
 				`,
 				`
 					Integrated with Google Vision and the browser's native media streamer
 					to create an AR simulation for user specified item detection
 				`,
+			],
+			projects: [
+				{
+					label: 'HP Indigo LEPx',
+					href: 'https://www8.hp.com/us/en/industrial-printers/indigo-digital-presses/lepx-digital-printing-technology.html',
+				},
+				{
+					label: 'Twitter Transparency',
+					href: 'https://transparency.twitter.com/',
+				},
+				{
+					label: 'Hyundai Genesis Korea',
+					href: 'https://www.genesis.com/kr/en/models/luxury-sedan-genesis/g80/bto/powertrain?code=RAS4NF2DBUJC&packages=&design=basic&color=obsidian-black&garnish=black-high-glossy',
+				},
 			],
 			keywords: ['Google Vision', 'AR simulation', 'Vue.js', 'GSAP animations'],
 		},
@@ -40,7 +54,7 @@ module.exports = {
 			company: 'Yolk AI',
 			companySrc: 'http://www.yolk.ai/',
 			startdate: 'july 2018',
-			enddate: 'jan 2019',
+			enddate: 'apr 2019',
 			descriptions: [
 				`
 					Implemented features for service desk automation tools using a React / Apollo Client
@@ -60,7 +74,7 @@ module.exports = {
 			division: 'CANVAS',
 			company: 'Mosaic Manufacturing',
 			companySrc: 'https://www.mosaicmfg.com/products/canvas',
-			startdate: 'feb 2018',
+			startdate: 'jan 2018',
 			enddate: 'july 2018',
 			descriptions: [
 				`
@@ -75,31 +89,13 @@ module.exports = {
 					Implemented authentication and model slicing calls via Node.js backend and Amazon's DynamoDB
 				`,
 			],
-			keywords: ['React/Redux', 'Three.js', 'sagas', 'DynamoDB',  'Node.js',],
+			keywords: ['React/Redux', 'Three.js', 'sagas', 'DynamoDB', 'Node.js',],
 		},
 
-		// {
-		// 	title: 'Freelancer',
-		// 	division: '',
-		// 	company: 'misspia.me',
-		// 	companySrc: 'http://misspia.me/',
-		// 	startdate: 'sept 2017',
-		// 	enddate: 'present',
-		// 	descriptions: [
-		// 		`
-		// 			Effectively worked with and provided consultation for clients
-		// 			to bring mobile and web applications to life
-		// 		`,
-		// 		`
-		// 			Made architectural decisions to create scalable applications
-		// 		`
-		// 	],
-		// 	keywords: ['mobile', 'web', 'scalable' ]
-		// },
 		{
 			title: 'Software Engineer Intern',
 			division: 'Manufacturing Automation',
-			company: 'North (formerly Thalmic Labs)',
+			company: 'North (Acquired by Google)',
 			companySrc: 'https://www.bynorth.com/',
 			startdate: 'may 2017',
 			enddate: 'dec 2017',
@@ -115,50 +111,5 @@ module.exports = {
 			],
 			keywords: ['React', 'flux', 'WebSockets', 'Gamepad API']
 		},
-		// {
-		// 	title: 'Software Engineer Intern',
-		// 	division: 'Prototyping',
-		// 	company: 'North (formerly Thalmic Labs)',
-		// 	companySrc: 'https://www.bynorth.com/',
-		// 	startdate: 'may 2017',
-		// 	enddate: 'aug 2017',
-		// 	descriptions: [
-		// 		`
-		// 			Prototyped screens for AR smart glasses using Qt / QML
-		// 			for user testing to validate product designs
-		// 		`,
-		// 		`
-		// 			Implemented an Electron based screen capture tool that streams image/video data from the
-		// 			desktop to remote devices, allowing designers to easily test their ideas on the smart glasses
-		// 		`
-		// 	],
-		// 	keywords: ['React', 'Node.js', 'Electron', 'Qt', 'QML']
-		// },
-		// {
-		// 	title: 'Full Stack Developer Intern',
-		// 	division: 'Lab of Forward Thinking',
-		// 	company: 'Manulife',
-		// 	companySrc: 'https://ca.linkedin.com/company/lab-of-forward-thinking',
-		// 	startdate: 'sept 2016',
-		// 	enddate: 'dec 2016',
-		// 	descriptions: [
-		// 		`Effectively communicated with stakeholders and designers to launch department's internal website redesign`,
-		// 		`Developed Angular charting directives using D3.js for cutting edge retirement investment tool`,
-		// 	],
-		// 	keywords: ['D3.js', 'Angular']
-		// },
-		// {
-		// 	title: 'Project Controller',
-		// 	division: 'Global Wealth',
-		// 	company: 'CGI',
-		// 	startdate: 'jan 2016',
-		// 	enddate: 'apr 2016',
-		// 	descriptions: [
-		// 		`
-		// 			Developed and maintained budget forecast spreadsheets using VBA
-		// 		`,
-		// 	],
-		// 	keywords: ['VBA / Macros']
-		// },
 	],
 };
