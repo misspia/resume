@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Descriptions from '../descriptions/descriptions.jsx';
-import { boldKeywords } from '../utils.js';
 
 class Experience extends Component {
 	renderHeader() {
@@ -63,8 +62,7 @@ class Experience extends Component {
 		return <div className='experience'>
 			{this.renderHeader()}
 			<Descriptions
-				descriptions={this.props.descriptions}
-				keywords={this.props.keywords}/>
+				descriptions={this.props.descriptions}/>
 			{this.renderNotableProjects()}
 		</div>;
 	}

@@ -10,13 +10,15 @@ module.exports = {
 			descriptions: [
 			`
 				A platform for K-Pop entusiasts to trade and resell merchandise and event tickets.
-				Received thousands of pageviews and hundreds of daily active users during the KCON LA 2019 event
+				Received <b>thousands of pageviews and hundreds of daily active users</b> during the KCON LA 2019 event
 			`,
 			`
 				Developed modular form components using React Hooks and handled requests with Apollo Client
 			`,
+			`
+				Designed a clean and friendly UI where users can signup, browse merchandise and view seller contact info
+			`,
 			],
-			keywords: ['Apollo Client', 'React Hooks', 'next.js', 'GraphQL', 'thousands', 'hundreds']
 		},
 		{
 			title: 'WebGL Pokdex Apollo Client + Server',
@@ -26,14 +28,13 @@ module.exports = {
 			linkDisplay: 'misspia.me/pokedex-webgl',
 			descriptions: [
 				`
-					Architected an Apollo Server for efficient read access of scraped Pokemon data
+					Architected an <b>Apollo Server</b> for efficient read access of scraped Pokemon data
 				`,
 				`
 					Developed an interactive WebGL experience with Three.js and custom shaders.
-					Managed state and UI elements using React hooks and its Context API.
+					Managed state and UI elements using <b>React hooks and its Context API</b>.
 				`,
 			],
-			keywords: ['Apollo Client', 'Apollo Server', 'Three.js', 'React hooks', 'Context API']
 		},
 		{
 			title: 'WebGL Sketchbook',
@@ -52,10 +53,9 @@ module.exports = {
 			// 	ray marching, signed distance functions and noise functions. Implemented
 			// 	using an object oriented approach
 			// `,
-			`	Routing and mounting between sketches handled via React + React Router
+			`	Routing and mounting between sketches handled via React hooks + React Router
 			`,
 			],
-			keywords: ['shaders', 'Three.js', 'GLSL', 'React', 'Router']
 		},
 		// {
 		// 	title: 'Energy (Unity Audio Visualization)',

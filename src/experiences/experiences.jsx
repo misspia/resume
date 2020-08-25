@@ -22,7 +22,6 @@ class Experiences extends Component {
 				enddate={experience.enddate}
 				link={experience.link}
 				descriptions={experience.descriptions}
-				keywords={experience.keywords}
 				projects={experience.projects}
 			/>
 	}

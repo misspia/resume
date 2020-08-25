@@ -16,16 +16,10 @@ module.exports = {
 			]
 		},
 		{
-			title: 'Graphics / Engines',
+			title: 'Graphics & other tools',
 			list: [
-				'WebGL', 'Shaders', 'Three.js'
+				'WebGL', 'Shaders', 'Three.js', 'GraphQL', 'Postgres', 'Git'
 			]
 		},
-		{
-			title: 'Other',
-			list: [
-				'GraphQL', 'Postgres', 'React Native', 'Git'
-			]
-		}
 	]
 }
