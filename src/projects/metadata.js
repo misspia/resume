@@ -9,7 +9,7 @@ module.exports = {
 			linkDisplay: 'butler.staging.kaeswap.com',
 			descriptions: [
 			`
-				A platform for K-Pop entusiasts to trade and resell merchandise and event tickets.
+				A platform for K-Pop enthusiasts to trade and resell merchandise and event tickets.
 				Received <b>thousands of pageviews and hundreds of daily active users</b> during the KCON LA 2019 event
 			`,
 			`

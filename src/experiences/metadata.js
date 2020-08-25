@@ -33,8 +33,8 @@ module.exports = {
 					The sales pitch secured another 3 projects with HP, leading to an additional <b>$8M + in revenue</b>.
 				`,
 				`
-					Developed the WebGL of the <b>FWA award winning</b> interactive microsite showcasing HP Indigo's LEPx pritner.
-					Optimized site <b>performance by 30%</b> by reducing drawcalls per render and efficiently handling user events.
+					Developed the WebGL of the <b>FWA award winning</b> interactive microsite showcasing HP Indigo's LEPx printer.
+					Optimized site <b>performance by 30%</b> by reducing draw calls per render and efficiently handling user events.
 				`,
 				`
 					Delivered an interactive car configuration sales tool using Vue for the Hyundai Genesis series.
