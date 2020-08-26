@@ -93,7 +93,7 @@ module.exports = {
 					of preparing and slicing models for multi-material 3D printing
 				`,
 				`
-					Handled 3D model uploads and interaction via <b>Three.js</b>. Features include drag & drop coloring of models
+					Handled 3D model uploads and interaction via <b>Three.js</b>. Features include drag & drop, coloring of models
 					using ray tracing, model transformations and normalizing grouped model uploads
 				`,
 				`
