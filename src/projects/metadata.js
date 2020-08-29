@@ -13,10 +13,10 @@ module.exports = {
 				Received <b>thousands of pageviews and hundreds of daily active users</b> during the KCON LA 2019 event
 			`,
 			`
-				Developed modular form components using React Hooks and handled requests with Apollo Client
-			`,
-			`
-				Designed a clean and friendly UI where users can signup, browse merchandise and view seller contact info
+				Developed modular form components using <b>React Hooks and Apollo Client</b>
+				to create a streamlined, indexable, way for users to format their listing data
+				so that is is easily searchable by potential buyers.
+
 			`,
 			],
 		},
@@ -28,12 +28,14 @@ module.exports = {
 			linkDisplay: 'misspia.me/pokedex-webgl',
 			descriptions: [
 				`
-					Architected an <b>Apollo Server</b> for efficient read access of scraped Pokemon data
+					Developed an interactive WebGL experience with <b>Three.js and React hooks</b> to
+					provide a novel, yet performant, way to interact with pokemon data.
 				`,
 				`
-					Developed an interactive WebGL experience with Three.js and custom shaders.
-					Managed state and UI elements using <b>React hooks and its Context API</b>.
+					Architected an <b>Apollo Server</b> for efficient read access of Pokemon data
+					to result in optimal page load time.
 				`,
+
 			],
 		},
 		{
@@ -44,7 +46,7 @@ module.exports = {
 			linkDisplay: 'misspia.me/sketchbook',
 			descriptions: [
 			`
-				A sandbox and journal for documenting my WebGL journey. Contains a collection
+				A sandbox and journal for documenting my WebGL learning progress. Contains a collection
 				of shaders and Three.js experiments exploring noise functions,
 				postprocessing techniques and more
 			`,
@@ -72,23 +74,6 @@ module.exports = {
 		// 	`,
 		// 	],
 		// 	keywords: ['Unity', '', '', '', '', '']
-		// },
-		// {
-		// 	title: 'WebGL Low Poly Solar System',
-		// 	startdate: 'dec 2017',
-		// 	enddate: 'jan 2018',
-		// 	link: 'http://bit.ly/2DasL8M',
-		// 	linkDisplay: 'bit.ly/2DasL8M',
-		// 	descriptions: [
-		// 	`
-		// 		Used an object oriented approach to implement a WebGL Solar System by creating geometies
-		// 		and textures in ThreeJS to render 3D planets
-		// 	`,
-		// 	`
-		// 		Optimized rendering of orbits by merging planetary verticies to reduce the total draw calls per frame
-		// 	`
-		// 	],
-		// 	keywords: ['object oriented', 'ThreeJS', 'WebGL', 'geometries and meshes', 'sequelize', 'Optimized rendering', 'draw calls per frame']
 		// },
 		// {
 		// 	title: 'Pokedex Web App + API',

@@ -12,13 +12,13 @@ module.exports = {
 			list: [
 				'Node.js', 'React', 'Redux', 'Apollo GraphQL',
 				'Next.js', 'Vue.js', 'styled-components',
-				'Webpack'
+				'Webpack', 'Three.js', 'WebGL',
 			]
 		},
 		{
-			title: 'Graphics & other tools',
+			title: 'Other tools',
 			list: [
-				'WebGL', 'Shaders', 'Three.js', 'GraphQL', 'Postgres', 'Git'
+				 'Shaders', 'GraphQL', 'Postgres', 'Git'
 			]
 		},
 	]
