@@ -2,6 +2,7 @@
 // http://davidozhang.com/assets/resume.pdf
 // https://zuqi.li/resources/ZuqiLi_Resume.pdf
 // https://jofibo.com/blog/front-end-developer-resume-example
+// https://elliott.dev/about
 
 module.exports = {
 	title: 'experience',
@@ -21,27 +22,48 @@ module.exports = {
 		// 	keywords: []
 		// },
 		{
+			title: 'Frontend Engineer',
+			division: 'Brokerage Operations / Lending',
+			company: 'Habito',
+			companySrc: 'https://www.habito.com/',
+			startdate: 'nov 2020',
+			enddate: 'present',
+			descriptions: [
+				`
+					Built a hub of aggregated customer data for our internal brokers, increasing the 
+					speed of and reducing the amount of errors made when processing a mortgage application <b>by 90%</b>
+				`,
+				`
+					Aggregated multiple services into single Node.js middleman servers to reduce the complexity in our frontends 
+				`,
+				`
+					Created responsive and web accessible components for internal design system and facilitated fortnightly 
+					discussions for frontend related concerns and knowledge sharing 
+				`,
+			],
+			keywords: []
+		},
+		{
 			title: 'Frontend Developer',
 			division: 'Interactive Web Team',
 			company: 'MediaMonks',
 			companySrc: 'https://www.mediamonks.com/',
 			startdate: 'may 2019',
-			enddate: 'present',
+			enddate: 'nov 2020',
 			descriptions: [
-				// make one sentence --> made xxx for sales pitch to secure xx
 				`
 					Prototyped a 3D asset viewer tool for HP's consumer PC products using React and Three.js
 					for a sales pitch that secured another 3 projects with HP, leading to an additional <b>$8M + in revenue</b>.
 				`,
 				`
 					Developed the WebGL of the <b>FWA award winning</b> interactive microsite showcasing HP Indigo's LEPx printer.
-					Optimized site <b>performance by 30%</b> by reducing draw calls per render and efficiently handling user events.
+					Optimized site <b>performance by 30%</b> by reducing draw calls per frame and efficiently handling user events.
 				`,
-				`
-					Delivered an interactive car configuration sales tool using Vue for the Hyundai Genesis series.
-					Developed a flexible system for reading CMS data, allowing the client to reuse the app for
-					multiple car models.
-				`,
+				// `
+				// 	Delivered an interactive car configuration sales tool using Vue for the Hyundai Genesis series.
+				// 	Developed a flexible system for reading CMS data, allowing the client to reuse the app for
+				// 	multiple car models.
+				// `,
 			],
 			projects: [
 				{
@@ -65,18 +87,18 @@ module.exports = {
 		{
 			title: 'Frontend Engineer',
 			division: 'Platform',
-			company: 'Yolk AI',
-			companySrc: 'http://www.yolk.ai/',
+			company: 'Yolk AI (Acquired by Astreya Partners Inc)',
+			companySrc: 'https://astreya.com/',
 			startdate: 'july 2018',
 			enddate: 'apr 2019',
 			descriptions: [
 				`
-					Implemented features for service desk automation tools using a <b>React / Apollo Client</b>
+					Created a suite of service desk automation tools using a <b>React / Apollo Client</b>
 					frontend and communicated with a GraphQL backend. Contributed to Jest component testing
 				`,
 				`
 					Developed internal theming library based on styled-components and created reusable form components
-					to standardize branding within the code base, easing the process of creating components for other developers.
+					to standardize branding within the code base and optimize the development process of other engineers.
 				`,
 			],
 		},
@@ -93,9 +115,8 @@ module.exports = {
 					tools for creating, slicing and coloring models for multi-material 3D printing into a single web platform.
 				`,
 				`
-					Handled 3D model uploads and interaction via <b>Three.js</b>. Some features include model transformations and drag & drop to
-					color and assign materials to models,
-					allowing users with no 3D printing or modelling experience to prepare models for multi-material printing.
+					Built ontop of <b>Three.js</b>, features include 3D model uploading, transformations and drag & drop
+					color/material assignment, allowing users with no 3D printing experience to prepare models for multi-material printing.
 				`,
 			],
 		},
@@ -108,10 +129,9 @@ module.exports = {
 			startdate: 'may 2017',
 			enddate: 'dec 2017',
 			descriptions: [
-				`
-					Increased scalability of production tools by migrating Qt desktop apps to modern web frameworks,
-					ensuring production workers could always easily access the most up to date tool versions.
-				`,
+				// `
+				// 	Increased scalability of production tools by migrating Qt desktop apps to modern web frameworks
+				// `,
 				`
 					Utilized WebSockets and the browser's Gamepad API to allow users to easily communicate with production machinery
 					via precision controllers, <b>increasing production efficiency by 80%</b>.

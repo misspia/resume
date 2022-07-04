@@ -2,22 +2,34 @@ module.exports = {
 	title: 'projects',
 	projects: [
 		{
-			title: 'Kaeswap',
-			startdate: 'dec 2018',
+			title: 'Wingbae',
+			startdate: 'mar 2021',
 			enddate: 'present',
-			link: 'https://butler.staging.kaeswap.com/',
-			linkDisplay: 'butler.staging.kaeswap.com',
+			// link: '',
+			// linkDisplay: '',
 			descriptions: [
 			`
-				A platform for K-Pop enthusiasts to trade and resell merchandise and event tickets.
-				Received <b>thousands of pageviews and hundreds of daily active users</b> during the KCON LA 2019 event
+				Led frontend development of a social dating platform focused on creating time and location based rooms where 
+				users can chat and match with one another through our GraphQL and Apollo based app 
 			`,
+			],
+		},
+		{
+			title: 'Kaeswap',
+			startdate: 'dec 2018',
+			enddate: 'dec 2019',
+			// link: 'https://butler.staging.kaeswap.com/',
+			// linkDisplay: 'butler.staging.kaeswap.com',
+			descriptions: [
 			`
-				Developed modular form components using <b>React Hooks and Apollo Client</b>
-				to create a streamlined, indexable, way for users to format their listing data
-				so that is is easily searchable by potential buyers.
-
+				A platform for K-Pop fans to trade and resell their albums//merch/event tickets; received <b>thousands of 
+				pageviews</b> and <b>hundreds of concurrent active users</b> during the KCON LA 2019 event
 			`,
+			// `
+			// 	Developed modular form components using <b>React Hooks and Apollo Client</b>
+			// 	to create a streamlined, indexable, way for users to format their listing data
+			// 	so that is is easily searchable by potential buyers.
+			// `,
 			],
 		},
 		{
@@ -28,13 +40,18 @@ module.exports = {
 			linkDisplay: 'misspia.me/pokedex-webgl',
 			descriptions: [
 				`
-					Developed an interactive WebGL experience with <b>Three.js and React hooks</b> to
-					provide a novel, yet performant, way to interact with pokemon data.
+				Developed an interactive WebGL experience with <b>Three.js and React hooks</b> to
+				provide a novel, yet performant, way to interact with pokemon data served from a custom 
+				<b>Apollo server</b>
 				`,
-				`
-					Architected an <b>Apollo Server</b> for efficient read access of Pokemon data
-					to result in optimal page load time.
-				`,
+				// `
+				// 	Developed an interactive WebGL experience with <b>Three.js and React hooks</b> to
+				// 	provide a novel, yet performant, way to interact with pokemon data.
+				// `,
+				// `
+				// 	Architected an <b>Apollo Server</b> for efficient read access of Pokemon data
+				// 	to result in optimal page load time.
+				// `,
 
 			],
 		},
@@ -49,13 +66,6 @@ module.exports = {
 				A sandbox and journal for documenting my WebGL learning progress. Contains a collection
 				of shaders and Three.js experiments exploring noise functions,
 				postprocessing techniques and more
-			`,
-			// `
-			// 	A collection of shaders exploring various raw WebGL/GLSL techniques including
-			// 	ray marching, signed distance functions and noise functions. Implemented
-			// 	using an object oriented approach
-			// `,
-			`	Routing and mounting between sketches handled via React hooks + React Router
 			`,
 			],
 		},

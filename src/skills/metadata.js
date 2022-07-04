@@ -4,7 +4,7 @@ module.exports = {
 		{
 			title: 'Languages',
 			list: [
-				'JavaScript (ES7)', 'TypeScript', 'GLSL', 'HTML/CSS'
+				'JavaScript (ES12)', 'TypeScript', 'GLSL', 'HTML/CSS'
 			]
 		},
 		{
@@ -18,7 +18,7 @@ module.exports = {
 		{
 			title: 'Other tools',
 			list: [
-				 'Shaders', 'GraphQL', 'Postgres', 'Git'
+				 'Shaders', 'GraphQL', 'Postgres', 'Git', 'Vim'
 			]
 		},
 	]

@@ -24,8 +24,10 @@ class Project extends Component {
 	render() {
 		return <div className='project'>
 			{this.renderHeader()}
-			<Descriptions descriptions={this.props.descriptions}
-					keywords={this.props.keywords}/>
+			<Descriptions 
+				bullet={false}
+				descriptions={this.props.descriptions}
+				keywords={this.props.keywords}/>
 			
 		</div>;
 	}

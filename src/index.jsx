@@ -12,7 +12,7 @@ import './index.scss';
 class App extends Component {
 	render() {
 		return <div className="app">
-			<a className='file ion-document-text' href='./pialeung.pdf'></a>
+			<a className='file ion-document-text' href='./misspia_resume.pdf'></a>
 			<Header />
 			<Experiences />
 			<Projects />
@@ -26,7 +26,3 @@ ReactDOM.render(
 	<App />,
 	document.getElementById('root')
 );
-
-
-
-
