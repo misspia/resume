@@ -34,12 +34,12 @@ module.exports = {
 					speed of and reducing the amount of errors made when processing a mortgage application <b>by 90%</b>
 				`,
 				`
-					Aggregated multiple services into single Node.js middleman servers to reduce the complexity in our frontends 
+					Aggregated multiple services into single <b>Node.js</b> middleman servers to reduce the complexity in our frontends 
 				`,
 				`
-					Created responsive and web accessible components for internal design system and facilitated fortnightly 
-					discussions for frontend related concerns and knowledge sharing 
-				`,
+					Facilitated fortnightly discussions for frontend related concerns, contributed to knowledge sharing talks and 
+					created responsive and web accessible components for internal design system 
+				`
 			],
 			keywords: []
 		},
@@ -93,8 +93,8 @@ module.exports = {
 			enddate: 'apr 2019',
 			descriptions: [
 				`
-					Created a suite of service desk automation tools using a <b>React / Apollo Client</b>
-					frontend and communicated with a GraphQL backend. Contributed to Jest component testing
+					Created a suite of service desk automation tools using a <b>Typescript / React / Apollo Client</b>
+					frontend and communicated with a GraphQL based server. Contributed to Jest component testing
 				`,
 				`
 					Developed internal theming library based on styled-components and created reusable form components

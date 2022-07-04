@@ -9,8 +9,8 @@ module.exports = {
 			// linkDisplay: '',
 			descriptions: [
 			`
-				Led frontend development of a social dating platform focused on creating time and location based rooms where 
-				users can chat and match with one another through our GraphQL and Apollo based app 
+				Led frontend development of TypeScript and Apollo Client based social dating platform focused on creating time and 
+				location based rooms where users can chat and match with one another 
 			`,
 			],
 		},
@@ -22,7 +22,7 @@ module.exports = {
 			// linkDisplay: 'butler.staging.kaeswap.com',
 			descriptions: [
 			`
-				A platform for K-Pop fans to trade and resell their albums//merch/event tickets; received <b>thousands of 
+				A Next.js and Apollo Client based platform for K-Pop fans to trade and resell their albums/merch/event tickets; received <b>thousands of 
 				pageviews</b> and <b>hundreds of concurrent active users</b> during the KCON LA 2019 event
 			`,
 			// `

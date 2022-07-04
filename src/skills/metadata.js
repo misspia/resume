@@ -18,7 +18,7 @@ module.exports = {
 		{
 			title: 'Other tools',
 			list: [
-				 'Shaders', 'GraphQL', 'Postgres', 'Git', 'Vim'
+				 'Shaders', 'GraphQL', 'Postgres', 'Git'
 			]
 		},
 	]
