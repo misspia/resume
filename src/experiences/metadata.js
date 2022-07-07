@@ -37,9 +37,9 @@ module.exports = {
 					Aggregated multiple services into single <b>Node.js</b> middleman servers to reduce the complexity in our frontends 
 				`,
 				`
-					Facilitated fortnightly discussions for frontend related concerns, contributed to knowledge sharing talks and 
-					created responsive and web accessible components for internal design system 
-				`
+					Led fortnightly discussions for the frontend group and contributed to knowledge sharing talks across the engineering 
+					team. Contributed to the creation of responsive and web accessible components for design system
+					`
 			],
 			keywords: []
 		},
