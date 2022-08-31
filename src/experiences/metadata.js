@@ -71,6 +71,10 @@ module.exports = {
 					href: 'https://www8.hp.com/us/en/industrial-printers/indigo-digital-presses/lepx-digital-printing-technology.html',
 				},
 				{
+					label: 'S⁴Capital Annual Report',
+					href: 'https://www.s4capital.com/annualreport19/',
+				},
+				{
 					label: 'Twitter Transparency',
 					href: 'https://transparency.twitter.com/',
 				},
