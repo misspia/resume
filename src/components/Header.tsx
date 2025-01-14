@@ -29,13 +29,13 @@ const Links = styled.div`
 `;
 
 const LinkRow = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 9fr;
+  display: flex;
   align-items: center;
   font-weight: ${fonts.weight.bold};
   font-size: 0.9em;
   padding: 0.1em 0;
   i {
+    margin-top: 2px;
     margin-right: 0.5em;
     text-align: center;
   }
