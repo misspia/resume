@@ -53,7 +53,7 @@ export const metadata: ExperiencesMetadata = {
       descriptions: [
         `
 					Spearheaded frontend development for launch of <a href="https://github.com/cohere-ai/cohere-toolkit/" target="_blank">toolkit</a>, 
-					a popular open-source RAG app (<b>2.9k+ GitHub stars</b>) built with <b>React /  Next.js / zustand</b>, enabling users to easily
+					a popular open-source RAG app (<b>2.9k+ GitHub stars</b>) built with <b>React /  Next.js / Zustand</b>, enabling users to easily
 					build and deploy LLM-based products.
 					`,
         `
