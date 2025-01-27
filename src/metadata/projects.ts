@@ -66,7 +66,7 @@ export const metadata: ProjectsMetadata = {
       linkDisplay: "misspia.github.io/sketchbook",
       description: `
 				A sandbox and journal for documenting my WebGL learning progress. Contains a collection
-				of <b>shaders / Three.js</b> experiments exploring noise functions,
+				of <b>shaders / Three.js / Web Audio</b> experiments exploring noise functions,
 				postprocessing techniques and more
 			`,
     },

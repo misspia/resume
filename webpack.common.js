@@ -39,14 +39,15 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       // patterns: [{ from: "src", to: "docs" }],
-      patterns: [path.join(__dirname, "src", "misspia_resume.pdf")],
+      patterns: [path.join(__dirname, "src", "pia_leung_resume.pdf")],
+      // patterns: [path.join(__dirname, "src", "*.pdf")],
     }),
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: path.join(__dirname, "src", "template.html"),
       inject: true,
       containerId: "root",
-      title: "misspia resume",
+      title: "Pia Leung resume",
     }),
   ],
 };

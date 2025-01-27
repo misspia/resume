@@ -48,8 +48,8 @@ export const metadata: ExperiencesMetadata = {
       division: "Chat",
       company: "Cohere",
       companySrc: "https://cohere.com/",
-      startDate: "jul 2023",
-      endDate: "jul 2024",
+      startDate: "july 2023",
+      endDate: "july 2024",
       descriptions: [
         `
 					Spearheaded frontend development for launch of <a href="https://github.com/cohere-ai/cohere-toolkit/" target="_blank">toolkit</a>, 
@@ -73,12 +73,12 @@ export const metadata: ExperiencesMetadata = {
       company: "Command AI (Acquired by Amplitude)",
       companySrc: "https://amplitude.com/blog/amplitude-acquires-command-ai",
       startDate: "oct 2022",
-      endDate: "jul 2023",
+      endDate: "july 2023",
       descriptions: [
         // `
-				// 	Led comprehensive redesign of the documentation website, implementing hooks and reusable components to support responsive design and theming. 
-				// 	Integrated recursively structured content from third-party CMS with recursive data handling.
-				// `,
+        // 	Led comprehensive redesign of the documentation website, implementing hooks and reusable components to support responsive design and theming.
+        // 	Integrated recursively structured content from third-party CMS with recursive data handling.
+        // `,
         `
           Led comprehensive redesign of documentation website, integrating recursively structured content from third-party CMS and implementing reusable components to fully support responsive design and theming. 
       `,
@@ -98,9 +98,9 @@ export const metadata: ExperiencesMetadata = {
       endDate: "oct 2022",
       descriptions: [
         `
-					Built a hub of aggregated customer data for our internal brokers, increasing the 
-					speed of and reducing the amount of errors made when processing a mortgage applications <b>by 90%</b>.
-				`,
+          Developed customer data hub using <b>React and styled-components</b>, enhancing internal brokerage workflows. Increased 
+					speed of and reduced errors made when processing mortgage applications <b>by 90%</b>.
+        `,
         // `
         // 	Aggregated multiple services into single <b>Node.js</b> middleman servers to reduce the complexity in our frontends
         // `,
@@ -125,7 +125,7 @@ export const metadata: ExperiencesMetadata = {
 				`,
         `
 					Developed an <b>FWA award winning</b> interactive microsite showcasing HP Indigo's LEPx printer with <b>Vue.js / Three.js</b>.
-					Optimized <b>performance by 30%</b> via reducing draw calls per frame and efficiently handling events.
+					Optimized <b>performance by 30%</b>, leading to smoother animations and improved user engagement.
 				`,
         // `
         // 	Delivered an interactive car configuration sales tool using Vue for the Hyundai Genesis series.

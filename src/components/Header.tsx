@@ -39,9 +39,11 @@ const LinkRow = styled.div`
     margin-right: 0.5em;
     text-align: center;
   }
-  a {
-    color: ${colors.blue};
-  }
+`;
+
+const Anchor = styled.a`
+  color: ${colors.blue};
+  margin-left: 5px;
 `;
 
 export const Header: React.FC = () => (
@@ -53,10 +55,11 @@ export const Header: React.FC = () => (
     <Links>
       {metadata.links.map((link, index) => (
         <LinkRow key={index}>
-          <i className={link.icon}></i>
-          <a href={link.src} target="_blank">
+          {/* <i className={link.icon}></i> */}
+          {link.label}:
+          <Anchor href={link.src} target="_blank">
             {link.display}
-          </a>
+          </Anchor>
         </LinkRow>
       ))}
     </Links>

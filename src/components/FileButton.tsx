@@ -27,7 +27,11 @@ const ButtonLink = styled.a`
 `;
 
 export const FileButton: React.FC = () => (
-  <ButtonLink className="no-print" href="./misspia_resume.pdf" target="_blank">
+  <ButtonLink
+    className="no-print"
+    href="./pia_leung_resume.pdf"
+    target="_blank"
+  >
     <i className="ion-ios-download-outline" />
   </ButtonLink>
 );
