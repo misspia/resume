@@ -57,7 +57,7 @@ export const metadata: ExperiencesMetadata = {
 					build and deploy LLM-based products.
 					`,
         `
-					Designed and implemented @-mention tagging of LLM tools and user files in <a href="https://coral.cohere.com/" target="_blank">Coral's</a> 
+					Architected and developed @-mention tagging of LLM tools and user files in <a href="https://coral.cohere.com/" target="_blank">Coral's</a> 
 					chat composer, improving feature visibility and reducing user confusion compared to the previous side panel design.
 				`,
         `
