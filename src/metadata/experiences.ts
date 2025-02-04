@@ -17,7 +17,6 @@ export type Experience = {
   startDate: string;
   endDate: string;
   descriptions: string[];
-  keywords?: string[];
   projects?: Project[];
 };
 
@@ -65,7 +64,6 @@ export const metadata: ExperiencesMetadata = {
 					text highlights. Designed robust status tracking for adaptive visuals, ensuring seamless user experience.
 				`,
       ],
-      keywords: [],
     },
     {
       title: "Software Engineer",
@@ -87,7 +85,6 @@ export const metadata: ExperiencesMetadata = {
 					cross-document messaging and interaction with their parent platform.
 				`,
       ],
-      keywords: [],
     },
     {
       title: "Software Engineer",
@@ -98,7 +95,7 @@ export const metadata: ExperiencesMetadata = {
       endDate: "oct 2022",
       descriptions: [
         `
-          Developed customer data hub using <b>React and styled-components</b>, enhancing internal brokerage workflows. Increased 
+          Developed customer data hub using <b>React / Apollo Client</b>, enhancing internal brokerage workflows. Increased 
 					speed of and reduced errors made when processing mortgage applications <b>by 90%</b>.
         `,
         // `
@@ -108,15 +105,18 @@ export const metadata: ExperiencesMetadata = {
 					Led fortnightly discussions for the frontend group and contributed to knowledge sharing talks across the engineering 
 					team. Championed creation of responsive and web accessible components for design system.
 					`,
+          `
+           Mentored a team of 2 junior engineers on a critical project, leading to a <b>20% improvement</b> 
+           in code quality and faster project delivery. 
+          `,
       ],
-      keywords: [],
     },
     {
       title: "Frontend Developer",
       division: "Interactive Web Team",
       company: "MediaMonks",
       companySrc: "https://www.mediamonks.com/",
-      startDate: "may 2019",
+      startDate: "apr 2019",
       endDate: "nov 2020",
       descriptions: [
         `
@@ -156,38 +156,42 @@ export const metadata: ExperiencesMetadata = {
         // },
       ],
     },
-    {
-      title: "Frontend Engineer",
-      division: "Platform",
-      company: "Yolk AI (Acquired by Astreya Partners Inc)",
-      companySrc: "https://astreya.com/",
-      startDate: "july 2018",
-      endDate: "apr 2019",
-      descriptions: [
-        `
-					Created a suite of service desk automation tools using a <b>Typescript / React / Apollo Client</b>
-					frontend and communicated with a GraphQL based server. Contributed to Jest component testing.
-				`,
-        // `
-        // 	Developed internal theming library based on styled-components and created reusable form components
-        // 	to standardize branding within the code base and optimize the development process of other engineers.
-        // `,
-      ],
-    },
+    // {
+    //   title: "Frontend Engineer",
+    //   division: "Platform",
+    //   company: "Yolk AI (Acquired by Astreya Partners Inc)",
+    //   companySrc: "https://astreya.com/",
+    //   startDate: "july 2018",
+    //   endDate: "apr 2019",
+    //   descriptions: [
+    //     `
+		// 			Created a suite of service desk automation tools using a <b>Typescript / React / Apollo Client</b>
+		// 			frontend and communicated with a GraphQL based server. Contributed to Jest component testing.
+		// 		`,
+    //     // `
+    //     // 	Developed internal theming library based on styled-components and created reusable form components
+    //     // 	to standardize branding within the code base and optimize the development process of other engineers.
+    //     // `,
+    //   ],
+    // },
     {
       title: "Software Developer",
       division: "Platform",
       company: "Mosaic Manufacturing",
       companySrc: "https://www.mosaicmfg.com/",
       startDate: "jan 2018",
-      endDate: "july 2018",
+      endDate: "mar 2019",
       descriptions: [
         `
 					Architected and prototyped the frontend for <a href="https://www.mosaicmfg.com/pages/canvas-software" target="_blank">Canvas</a>, a <b>React / Redux / Three.js </b> app that consolidates
 					tools for creating, slicing and coloring models for multi-material 3D printing into a single web platform.
 				`,
+        `
+          Designed an intuitive interface that enabled users with no 3D printing experience to easily prepare models for 
+          multi-material printing, leading to a <b>30% growth</b> in social media followers and increased product sales.  
+          `,
         // `
-        // 	Built ontop of <b>Three.js</b>, features include 3D model uploading, transformations and drag & drop
+        // 	Built ontop of <b>React / Three.js</b>, features include 3D model uploading, transformations and drag & drop
         // 	color/material assignment, allowing users with no 3D printing experience to prepare models for multi-material printing.
         // `,
       ],
