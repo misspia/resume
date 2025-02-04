@@ -57,7 +57,7 @@ export const metadata: ExperiencesMetadata = {
 					`,
         `
 					Architected and developed @-mention tagging of LLM tools and user files in <a href="https://coral.cohere.com/" target="_blank">Coral's</a> 
-					chat composer, <b>increasing feature visibility and usage rate by 40%</b>.
+					chat composer, enhancing feature visibility and <b>increasing usage rate of our models by 40%</b>.
 				`,
         `
 					Engineered real-time chat streaming via WebSockets, enhancing outputs with customized rich text, citation parsing, and interactive 
@@ -75,11 +75,11 @@ export const metadata: ExperiencesMetadata = {
       descriptions: [
       // `
       //     Led comprehensive redesign of documentation website, integrating recursively structured content from third-party CMS and implementing reusable 
-      //     components to fully support responsive design and theming, leading to a <b>25% decrease in support tickets</b> 
+      //     components to fully support responsive design and theming, leading to a <b>30% decrease in support tickets</b> 
       // `,
       `
          Led comprehensive redesign of a documentation site, integrating a third-party CMS and reusable components to enhance 
-         responsiveness and theming, <b>reducing support tickets by 25%</b>.
+         responsiveness and theming, <b>reducing support tickets by 30%</b>.
       `,
         `
 					Designed and implemented zero-code setup components in <b>React</b>, seamlessly embedded via iframes into user websites, enabling smooth 
@@ -107,7 +107,7 @@ export const metadata: ExperiencesMetadata = {
 					team. Championed creation of responsive and web accessible components for design system.
 					`,
           `
-           Mentored a team of 2 junior engineers on a critical project, leading to a <b>20% improvement</b> 
+           Mentored a team of 2 junior engineers on a critical project, leading to a <b>25% improvement</b> 
            in code quality and faster project delivery. 
           `,
       ],
@@ -126,7 +126,7 @@ export const metadata: ExperiencesMetadata = {
 				`,
         `
 					Developed an <b>FWA award winning</b> interactive microsite showcasing HP Indigo's LEPx printer with <b>Vue.js / Three.js</b>.
-					Optimized <b>performance by 30%</b>, leading to smoother animations and improved user engagement.
+					Optimized <b>performance by 25%</b>, leading to smoother animations and improved user engagement.
 				`,
         // `
         // 	Delivered an interactive car configuration sales tool using Vue for the Hyundai Genesis series.
