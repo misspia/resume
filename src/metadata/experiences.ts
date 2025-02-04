@@ -57,7 +57,7 @@ export const metadata: ExperiencesMetadata = {
 					`,
         `
 					Architected and developed @-mention tagging of LLM tools and user files in <a href="https://coral.cohere.com/" target="_blank">Coral's</a> 
-					chat composer, improving feature visibility and reducing user confusion compared to the previous side panel design.
+					chat composer, <b>increasing feature visibility and usage rate by 40%</b>.
 				`,
         `
 					Engineered real-time chat streaming via WebSockets, enhancing outputs with customized rich text, citation parsing, and interactive 
@@ -73,12 +73,13 @@ export const metadata: ExperiencesMetadata = {
       startDate: "oct 2022",
       endDate: "july 2023",
       descriptions: [
-        // `
-        // 	Led comprehensive redesign of the documentation website, implementing hooks and reusable components to support responsive design and theming.
-        // 	Integrated recursively structured content from third-party CMS with recursive data handling.
-        // `,
-        `
-          Led comprehensive redesign of documentation website, integrating recursively structured content from third-party CMS and implementing reusable components to fully support responsive design and theming. 
+      // `
+      //     Led comprehensive redesign of documentation website, integrating recursively structured content from third-party CMS and implementing reusable 
+      //     components to fully support responsive design and theming, leading to a <b>25% decrease in support tickets</b> 
+      // `,
+      `
+         Led comprehensive redesign of a documentation site, integrating a third-party CMS and reusable components to enhance 
+         responsiveness and theming, <b>reducing support tickets by 25%</b>.
       `,
         `
 					Designed and implemented zero-code setup components in <b>React</b>, seamlessly embedded via iframes into user websites, enabling smooth 
